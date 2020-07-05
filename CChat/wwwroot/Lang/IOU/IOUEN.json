@@ -1,0 +1,21 @@
+{
+  "title1": "REQUISITION LIST",
+  "iOUList": "IOU List",
+  "requisitionNo": "Requisition No",
+  "requisitionDate": "Requisition Date",
+  "subject": "Subject",
+  "targetDeliveryDate": "Target Delivery Date",
+  "status": "Status",
+  "action": "Action",
+
+  "title2": "IOU APPROVE LIST",
+  "iOUDate": "IOU Date",
+  "iOUNo": "IOU No",
+  "deliveryDate": "Delivery Date",
+  "iOUValue": "IOU Value",
+  "pRNo": "PR. No.",
+  "title3": "IOU LIST",
+  "createIOU": "Create IOU",
+  "title4": "PRINTED IOU LIST"
+
+}

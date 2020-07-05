@@ -1,0 +1,9 @@
+{
+  "title": "Bank Information",
+  "title2": "List of Bank Information",
+  "bankName": "Bank Name",
+  "branchName": "Branch Name",
+  "accountNumber": "Account Number",
+  "ibus": "IBASS",
+  "action": "Action"
+}

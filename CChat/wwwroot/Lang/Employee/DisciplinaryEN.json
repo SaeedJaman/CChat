@@ -1,0 +1,22 @@
+﻿{
+  "title": "Disciplinary Action Log",
+  "title2": "List of Disciplinary Action Log",
+  "employeeId": "Employee's Id",
+  "employeeName": "Employee's Name",
+  "designation": "Designation",
+  "offense": "Offense",
+  "naturalPunishment": "Nature of Punishment",
+  "punishmentDate": "GO. Date",
+  "goWithDate": "GO. No.",
+  "goAttachment": "GO. Attachment",
+  "startFrom": "Start From",
+  "endTo": "End To",
+  "offenseDescription": "Offense Description",
+  "remarks": "Remarks",
+  "applicationApproval": "Application Approval List",
+  "approveBy": "Approve by",
+  "approvalDate": "Approval Date",
+  "comments": "Comments",
+  "action": "Action",
+  "status": "Status"
+}

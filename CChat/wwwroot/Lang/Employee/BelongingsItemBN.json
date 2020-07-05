@@ -1,0 +1,13 @@
+﻿{
+  "title": "সম্পর্কিত আইটেম",
+  "itemName": "আইটেম নাম",
+  "itemCode": "আইটেম কোড",
+  "brandName": "ব্র্যান্ড নাম",
+  "modelName": "মডেল নাম",
+  "serialNumber": "ক্রমিক সংখ্যা",
+  "dateOfProcurement": "সংগ্রহের তারিখ",
+  "dateOfSubmission": "জমা তারিখ",
+  "dateOfLastPhysicalVerification": "শেষ শারীরিক যাচাইয়ের তারিখ",
+  "title2": "সম্পর্কিত আইটেমের তালিকা",
+  "action": "প্রক্রিয়া"
+}

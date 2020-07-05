@@ -1,0 +1,9 @@
+﻿{
+  "title": "বেতন প্রসেস",
+  "salaryPeriodId": "বেতনের সময়কাল",
+  "employeeName": "এমপ্লয়ির নাম",
+  "totalEmployee": "মোট এমপ্লয়ি",
+  "process": "প্রসেস",
+  "taxProcess": "ট্যাক্স প্রসেসের জন্য প্রেরণ",
+  "action": "প্রক্রিয়া"
+}

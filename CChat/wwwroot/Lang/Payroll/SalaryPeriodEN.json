@@ -1,0 +1,14 @@
+﻿{
+  "title": "Salary Period Info",
+  "periodName": "Period Name",
+  "salaryTypeId": "Salary Type",
+  "bonusTypeId": "Bonus Type",
+  "daysWorking": "Working Days",
+  "mailSub": "Mail Subject",
+  "mailText": "Mail Body",
+  "salaryYearId": "Salary Year",
+  "monthName": "Month Name",
+  "taxYearId": "Fiscal Year",
+  "list": "Salary Period List",
+  "action": "Action"
+}

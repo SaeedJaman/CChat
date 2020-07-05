@@ -1,0 +1,12 @@
+{
+  "project": "Project",
+  "matrixType": "Matrix Type",
+  "raiser": "Raiser",
+  "nextApprover": "Approver",
+  "approverType": "Approver Type",
+  "isActive": "Is Active",
+  "sequenceNo": "Sequence No",
+  "listTitle": "List Of Matrix",
+  "title": "Approver Matrix",
+  "action": "Action"
+}

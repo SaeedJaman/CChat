@@ -1,0 +1,13 @@
+﻿{
+  "title": "Leave Without Pay",
+  "sl": "#SL",
+  "empcode": "Emp Code",
+  "employeeName": "Emp Name",
+  "workingDays": "No of Days",
+  "designation": "Designation",
+  "department": "Department",
+  "salaryPeriodId": "Starting Month",
+  "salaryMonth": "Salary Month",
+  "list": "List of Leave Without Pay",
+  "action": "Action"
+}

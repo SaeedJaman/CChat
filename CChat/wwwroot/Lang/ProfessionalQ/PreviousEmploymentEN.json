@@ -1,0 +1,14 @@
+﻿{
+  "title": "Previous Employment Information",
+  "companyName": "Company Name",
+  "organizationType": "Organization Type",
+  "position": "Position",
+  "department": "Department",
+  "startDate": "Start Date",
+  "endDate": "End Date",
+  "companyBusiness": "Company Business",
+  "companyLocation": "Company Location",
+  "responsibilities": "Responsibilities",
+  "list": "List of Previous Employment Information",
+  "action": "Action"
+}

@@ -1,0 +1,13 @@
+﻿{
+  "publicationEntry": "Publication Entry",
+  "publicationApprove": "Publication Approve",
+  "employeeId": "Employee ID",
+  "employeeName": "Employee Name",
+  "designation": "Designation",
+  "publicationType": "Publication Type",
+  "date": "Date",
+  "place": "Place of Publication",
+  "nameOfPublication": "Publication Name/Title",
+  "action": "Action",
+  "status": "Status"
+}

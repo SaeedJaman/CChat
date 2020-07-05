@@ -1,0 +1,16 @@
+﻿{
+  "title1": "অধিযাচন তালিকা",
+  "requisitionNo": "অনুরোধ নং",
+  "requisitionDate": "অনুরোধ তারিখ",
+  "subject": "বিষয়",
+  "assignedDate": "নির্ধারিত তারিখ",
+  "status": "অবস্থা",
+  "action": "প্রক্রিয়া",
+  "createCS": "সি এস তৈরি করুন",
+  "cSList": "সি এস তালিকা",
+  "procurementPerson": "ক্রয়কারী ব্যক্তি",
+  "cSNo": "সি এস নং",
+  "cSCreationDate": "সি এস তৈরির তারিখ",
+  "finalApprover": "চূড়ান্ত অনুমোদনকারী",
+  "approveCS": "সি এস অনুমোদন করুন"
+}

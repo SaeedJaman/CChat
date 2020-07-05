@@ -1,0 +1,13 @@
+{
+  "title": "Belonging Item",
+  "itemName": "Item Name",
+  "itemCode": "Item Code",
+  "brandName": "Brand Name",
+  "modelName": "Model Name",
+  "serialNumber": "Serial Number",
+  "dateOfProcurement": "Date Of Procurement",
+  "dateOfSubmission": "Date Of Submission",
+  "dateOfLastPhysicalVerification": "Date Of Last Physical Verification",
+  "title2": "List of Belonging Item",
+  "action": "Action"
+}

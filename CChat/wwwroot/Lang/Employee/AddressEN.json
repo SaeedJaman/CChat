@@ -1,0 +1,15 @@
+{
+  "title": "Employee's Address",
+  "sameAddress": "Same as Present Address (plz check)",
+  "Division": "Division",
+  "District": "District",
+  "Upazila": "Upazila/Thana",
+  "Union": "Union",
+  "PostOffice": "Post Office",
+  "PostCode": "Post Code",
+  "BlockSector": "Block/Sector",
+  "HouseVillage": "House No./Village",
+  "roadNo": "Road No.",
+  "permanent": "Permanent Address",
+  "present": "Present Address"
+}

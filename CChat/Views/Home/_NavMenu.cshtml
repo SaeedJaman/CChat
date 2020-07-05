@@ -1,0 +1,74 @@
+﻿@model NavbarViewModel
+
+<link href="~/css/sb-admin-2.min.css" rel="stylesheet" />
+
+<script src="~/js/sb-admin-2.min.js"></script>
+<script type="text/javascript">
+    var value = document.cookie;
+    var lang = value.slice(5, 8);
+    if (lang == 'bn') {
+        $('#dashboard').text('ড্যাশবোর্ড');
+    } else {
+        $('#dashboard').text('Home');
+    }
+</script>
+
+<div id="menu">
+    <ul class="navbar-nav sidebar sidebar-dark accordion" style="font-weight: bolder; background:#609513;" id="accordionSidebar">
+        <li class="nav-item">
+            <a class="nav-link" id="HomeIcon">
+                <i class="fas fa-fw fa-home"></i>
+                <span style="color:white;" id="dashboard">Home</span>
+            </a>
+        </li>
+        @foreach (var item in Model.ERPModules)
+        {
+        <li class="nav-item" id="accordionSidebar_@item.moduleName.Replace(" ", "")">
+            <a class="nav-link collapsed" href="javascript:void(0)" data-toggle="collapse" data-target="#collapse_@item.moduleName.Replace(" ", "")" aria-expanded="true" aria-controls="collapse__@item.moduleName.Replace(" ", "")">
+                <i class="fa fa-laptop"></i>
+                <span style="color:white;" id="Setting_@item.moduleName.Replace(" ", "")">@item.moduleName</span>
+            </a>
+            @foreach (var itemchid in Model.navbars.Where(x => x.moduleId == item.Id && x.parentID == 0))
+            {
+                if (itemchid.isParent == 0)
+                {
+                    <div id="collapse_@item.moduleName.Replace(" ", "")" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                        <a class="nav-link" onclick="LocalSet(@itemchid.moduleId,@itemchid.Id)" href="@Url.Action("GridMenuPage", "Home", new { moduleId = @itemchid.moduleId, perentId = @itemchid.Id  })">
+                            <i class="@itemchid.imageClass"></i><span>@itemchid.nameOption</span>
+                        </a>
+                    </div>
+                }
+                else
+                {
+                   
+                }
+            }
+
+            <div>
+                
+            </div>
+        </li>
+        }
+    </ul>
+</div>
+
+<script type="text/javascript">
+    function LocalSet(modelId, parentId) {
+        window.localStorage.setItem("modelId", modelId);
+        window.localStorage.setItem("parentId", parentId);
+    }
+
+    $(document).ready(function () {
+        var modelId =  window.localStorage.getItem('modelId');
+        var parentId = window.localStorage.getItem('parentId');
+
+        if (modelId != null) {
+            $("#HomeIcon").prop('href', '/Home/GridMenuPage?moduleId=' + modelId + '&perentId=' + parentId);
+        } else {
+            $("#HomeIcon").prop('href', '/Home/GridMenuPage?moduleId=' + 3 + '&perentId=' + 202);
+        } 
+    });
+</script>
+
+
+

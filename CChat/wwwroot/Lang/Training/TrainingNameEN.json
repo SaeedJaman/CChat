@@ -1,0 +1,13 @@
+{
+  "title": "Training Name Setup",
+  "trainingName": "Training Name",
+  "isMandatory": "Is Mandatory?",
+  "trainingType": "Training Type",
+  "objective": "Objective",
+  "description": "Description",
+  "syllebus": "Training Syllebus",
+  "unit": "Unit",
+  "duration": "Duration",
+  "trainingCatagory": "Training Catagory",
+  "action": "Action"
+}

@@ -1,0 +1,10 @@
+﻿{
+  "title": "প্রতিষ্ঠানের তথ্য",
+  "titleCls": "অর্গানোগ্রাম সেটআপ",
+  "organizationType": "প্রতিষ্ঠানের ধরণ",
+  "pOrganizationName": "মূল প্রতিষ্ঠানের নাম",
+  "organizationNameEN": "প্রতিষ্ঠানের নাম (ইংরেজি)",
+  "organizationNameBN": "প্রতিষ্ঠানের নাম (বাংলা)",
+  "remarks": "মন্তব্য",
+  "action": "প্রক্রিয়া"
+}

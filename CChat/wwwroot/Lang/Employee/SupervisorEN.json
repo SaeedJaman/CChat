@@ -1,0 +1,10 @@
+﻿{
+  "title": "Supervisor Info",
+  "title2": "List of Supervisor Info",
+  "supervisorID": "Supervisor ID",
+  "supervisorName": "Supervisor Name",
+  "supDesignation": "Designation",
+  "commandOrder": "Command Order",
+  "canFinalApprover": "Is Final Approver?",
+  "action": "Action"
+}

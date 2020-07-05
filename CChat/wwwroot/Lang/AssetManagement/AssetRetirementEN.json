@@ -1,0 +1,22 @@
+{
+  "backToRetirementList": "Back To Retirement List",
+  "assetNonRetirementList": "Asset Non Retirement List",
+  "purchaseNo": "Purchase No",
+  "receiveDate": "Receive Date",
+  "purchaseDate": "Purchase Date",
+  "supplierName": "Supplier Name",
+  "assetNo": "Asset No",
+  "assetValue": "Asset Value",
+  "assetRetirementInfo": "Asset Retirement Info",
+  "assetName": "Asset Name",
+  "retirementDate": "Retirement Date",
+  "retirementType": "Retirement Type",
+  "scrapValue": "Scrap Value",
+  "yearAccumulatedDepr": "Year Accumulated Depr.",
+  "writtenDownValue": "Written Down Value",
+  "retirementReason": "Retirement Reason",
+  "assetRetirementList": "Asset Retirement List",
+  "causeofRetirement": "Cause of Retirement",
+  "addAssetRetirement": "Add Asset Retirement",
+  "action": "Action"
+}

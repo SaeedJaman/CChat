@@ -1,0 +1,18 @@
+﻿{
+  "title1": "প্রকল্প সম্পর্কিত তথ্য",
+  "title2": "প্রকল্প সম্পর্কিত তথ্য তালিকা",
+  "projectName": "প্রকল্পের নাম",
+  "projectLocation": "প্রকল্পের অবস্থান",
+  "status": "অবস্থা",
+  "running": "চলমান",
+  "close": "বদ্ধ",
+  "shortName": "সংক্ষিপ্ত নাম",
+  "incharge": "ইন চার্জ",
+  "designation": "উপাধি",
+  "projectShortName": "প্রকল্প তথ্য তালিকা",
+  "location": "ঠিকানা",
+  "projectInCharge": "প্রজেক্ট ইন চার্জ",
+  "projectStatus": "প্রোজেক্ট অবস্থা",
+  "submit": "জমা দিন",
+  "action": "প্রক্রিয়া "
+}

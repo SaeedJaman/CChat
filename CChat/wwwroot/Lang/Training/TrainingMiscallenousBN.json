@@ -1,0 +1,12 @@
+﻿{
+  "title": "বিবিধ প্রশিক্ষণ তথ্য",
+  "trainingInfoId": "প্রশিক্ষণের নাম ",
+  "startTimestamp": "শুরুর সময়কাল",
+  "endTimestamp": "শেষের সময়কাল",
+  "modeOfExam": "পরিক্ষার ধরণ",
+  "unit": "একক",
+  "action": "প্রক্রিয়া",
+  "activityHead": "কার্যকলাপের নাম",
+  "activityDetails": "কার্যকলাপের বিবরণ",
+  "costOfAction": "কাজের খরচ"
+}

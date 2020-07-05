@@ -1,0 +1,11 @@
+{
+  "title": "Emergency Contact Information",
+  "refName": "Name",
+  "refOrganization": "Organization",
+  "refEmail": "Email",
+  "refRelation": "Relation",
+  "refDesignation": "Designation",
+  "refContact": "Contact",
+  "list": "List of Emergency Contact Information",
+  "action": "Action"
+}

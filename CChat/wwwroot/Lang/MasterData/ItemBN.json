@@ -1,0 +1,25 @@
+﻿{
+  "title": "পদ তথ্য",
+  "itemCategoryId": "পদ বিভাগ",
+  "subCategory": "উপ বিভাগ",
+  "mainCategory": "প্রধান বিভাগ",
+  "unitId": "একক নাম",
+  "itemName": "পদ নাম",
+  "itemCode": "পদ কোড",
+  "itemDescription": "পদ বিবরণ",
+  "accountLedgerId": "হিসাব লেজার",
+  "reOrderLevel": "পুনর্বিন্যাস স্তর",
+  "itemunder": "মূল পদ",
+  "itemspecification": "নির্দিষ্টকরণ",
+  "itemSl": "SL নং",
+  "itemQty": "পদ পরিমাণ",
+  "itemApproxPrice": "অ্যাপ্রেক্স হার",
+  "addItemSpecification": "পদ নির্দিষ্টকরণ যোগ করুন",
+
+  "specificationName": "নির্দিষ্টকরণের নাম",
+  "specCategory": "Spec বিভাগ",
+  "addSpecification": "নির্দিষ্টকরণ যোগ করুন",
+  "value": "মান",
+  "category": "বিভাগ",
+  "action": "কর্ম"
+}

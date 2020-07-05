@@ -1,0 +1,9 @@
+{
+  "title": "Passport Information",
+  "title2": "List of Passport Information",
+  "passPortNumber": "Passport Number",
+  "place": "Place of Issue",
+  "dateOfIssue": "Date of Issue",
+  "dateOfExpair": "Date of Expiry",
+  "action": "Action"
+}

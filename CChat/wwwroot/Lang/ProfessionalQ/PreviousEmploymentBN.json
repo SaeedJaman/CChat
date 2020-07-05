@@ -1,0 +1,14 @@
+﻿{
+  "title": "পূর্বের চাকুরীর তথ্য",
+  "companyName": "প্রতিষ্ঠানের নাম",
+  "organizationType": "প্রতিষ্ঠানের ধরণ",
+  "position": "পদমর্যাদা",
+  "department": "বিভাগ",
+  "startDate": "শুরুর তারিখ",
+  "endDate": "শেষের তারিখ",
+  "companyBusiness": "প্রতিষ্ঠানের ব্যবসাক্ষেত্র",
+  "companyLocation": "প্রতিষ্ঠানের ঠিকানা",
+  "responsibilities": "পালনকৃত দায়িত্ব",
+  "list": "পূর্বের চাকুরীর তালিকা",
+  "action": "প্রক্রিয়া"
+}

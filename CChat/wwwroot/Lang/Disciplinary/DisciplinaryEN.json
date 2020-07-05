@@ -1,0 +1,21 @@
+﻿{
+  "title": "Disciplinary Action",
+  "employeeId": "Employee's Id",
+  "employeeName": "Employee's Name",
+  "designation": "Designation",
+  "offense": "Offense",
+  "naturalPunishment": "Nature of Punishment",
+  "punishmentDate": "Govt. Order Date",
+  "goWithDate": "Govt. Order No.",
+  "goAttachment": "Govt. Order Attachment",
+  "startFrom": "Start From",
+  "endTo": "End To",
+  "offenseDescription": "Offense Description",
+  "remarks": "Remarks",
+  "applicationApproval": "Application Approval List",
+  "approveBy": "Approve by",
+  "approvalDate": "Approval Date",
+  "comments": "Comments",
+  "action": "Action",
+  "status": "Status"
+}

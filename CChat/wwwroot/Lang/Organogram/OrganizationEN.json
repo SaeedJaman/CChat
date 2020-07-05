@@ -1,0 +1,10 @@
+{
+  "title": "Organization Information",
+  "titleCls": "Organogram Setup",
+  "organizationType": "Organization Type",
+  "pOrganizationName": "Parent Organization Name",
+  "organizationNameEN": "Organization Name (English)",
+  "organizationNameBN": "Organization Name (Bangla)",
+  "remarks": "Remarks",
+  "action": "Action"
+}

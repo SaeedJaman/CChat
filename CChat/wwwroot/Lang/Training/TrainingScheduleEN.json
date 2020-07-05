@@ -1,0 +1,10 @@
+﻿{
+  "title":"Launch Training Schedule",
+  "trainingName": "Training Name",
+  "scheduleDate": "Schedule Date",
+  "endDate": "End Date",
+  "startTime": "Start Time",
+  "endTime": "End Time",
+  "subject": "Subject",
+  "resourcePerson": "Resource Person"
+}

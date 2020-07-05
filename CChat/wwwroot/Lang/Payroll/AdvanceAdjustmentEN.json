@@ -1,0 +1,18 @@
+﻿{
+  "title": "Advance Adjustment",
+  "sl": "#SL",
+  "empcode": "Emp Code",
+  "workingDays": "Working Days",
+  "designation": "Designation",
+  "department": "Department",
+  "salaryPeriodId": "Starting Month",
+  "salaryHeadId": "Salary Head",
+  "advanceAmount": "Total Amount",
+  "employeeName": "Employee Name",
+  "installmentAmount": "Monthly installment",
+  "noOfInstallment": "No of Installment",
+  "purpose": "Purpose",
+  "isContinue": "Is Continue?",
+  "list": "List of Advance Adjustment",
+  "action": "Action"
+}

@@ -1,0 +1,23 @@
+﻿{
+  "reqNo": "চাহিদাপত্র নং",
+  "reqDate": "চাহিদাপত্র তারিখ",
+  "targetDate": "লক্ষ্য তারিখ",
+  "justification": "ন্যায্যতা প্রতিপাদন",
+  "subject": "বিষয়",
+  "reqDept": "বিভাগ",
+  "reqType": "চাহিদাপত্র ধরণ",
+  "supplier": "সরবরাহকারীর নাম",
+  "isPostPR": "পোস্ট পিআর",
+  "title": "চাহিদাপত্র অনুমোদনের তালিকা",
+  "listTitle": "চাহিদাপত্রের তালিকা",
+  "action": "প্রক্রিয়া",
+  "itemDetails": "আইটেম বিবরণ",
+  "itemId": "আইটেম আইডি",
+  "itemSpecificationId": "আইটেম স্পেসিফিকেশন",
+  "lastPrice": "শেষ দাম",
+  "reqQty": "পরিমাণ",
+  "reqRate": "প্রায়. মূল্য",
+  "totalAmount": "সর্বমোট পরিমাণ",
+  "itemDetailsList": "আইটেম বিবরণ তালিকা",
+  "unit": "একক"
+}

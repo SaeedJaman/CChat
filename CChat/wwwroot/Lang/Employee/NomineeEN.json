@@ -1,0 +1,13 @@
+﻿{
+  "title": "Nominee Information",
+  "name": "Name",
+  "contact": "Contact",
+  "relation": "Relation",
+  "address": "Address",
+  "fundType": "Fund Type",
+  "remaining": "Remaining",
+  "value": "Value",
+  "btnAdd": "Add",
+  "list": "List of Nominee Information",
+  "action": "Action"
+}

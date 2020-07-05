@@ -1,0 +1,21 @@
+﻿{
+  "title": "Promotion Details",
+  "title2": "List of Promotion Details",
+  "sl": "SL",
+  "employeeId": "Employee's Id",
+  "employeeName": "Employee's Name",
+  "designation": "Designation",
+  "dateOfPromotion": "Date of Promotion",
+  "promotedPayScale": "Grade",
+  "natureOfPromotion": "Nature of Promotion",
+  "delayDays": "Delay Days",
+  "joiningDate": "Joining Date",
+  "basic": "Basic",
+  "goNo": "GO. No",
+  "rank": "Rank",
+  "remarks": "Remarks",
+  "status": "Status",
+  "action": "Action",
+  "goNumber": "GO. Number",
+  "goDate": "GO. Date"
+}

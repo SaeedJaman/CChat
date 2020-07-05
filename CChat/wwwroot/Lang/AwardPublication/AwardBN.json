@@ -1,0 +1,11 @@
+﻿{
+  "awardEntry": "পুরস্কারের তালিকা",
+  "employeeId": "কর্মচারীর আইডি",
+  "employeeName": "কর্মচারীর নাম",
+  "designation": "পদবি",
+  "awardName": "পুরস্কারের নাম",
+  "purpose": "উদ্দেশ্য ",
+  "awardDate": "পুরস্কারের তারিখ",
+  "action": "প্রক্রিয়া",
+  "status": "অবস্থা"
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Item Information",
+  "itemCategoryId": "Item Category",
+  "subCategory": "Sub Category",
+  "mainCategory": "Main Category",
+  "unitId": "Unit Name",
+  "itemName": "Item Name",
+  "itemCode": "Item Code",
+  "itemDescription": "Item Description",
+  "accountLedgerId": "Account Ledger",
+  "reOrderLevel": "Re-Order Level",
+  "itemunder": "Parent Item",
+  "itemspecification": "Specification",
+  "addItemSpecification": "Add Item Specification",
+  "itemSl": "SL No",
+  "itemQty": "Item Quantity",
+  "itemApproxPrice": "Apprx.Rate",
+
+  "specificationName": "Specification Name",
+  "specCategory": "Spec Category",
+  "value": "Value",
+  "category": "Category",
+  "addSpecification": "Add Specification",
+
+  "action": "Action"
+}

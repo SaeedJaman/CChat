@@ -1,0 +1,11 @@
+﻿{
+  "title": "বইয়ের তালিকা",
+  "bookName": "বইয়ের নাম",
+  "bookCategory": "ক্যাটাগরী নাম",
+  "writerName": "লেখকের নাম",
+  "publisher": "প্রকাশকের নাম",
+  "publishDate": "প্রকাশের তারিখ",
+  "quantity": "পরিমাণ",
+  "status": "অবস্থা",
+  "action": "প্রক্রিয়া"
+}

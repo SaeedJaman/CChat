@@ -1,0 +1,15 @@
+﻿{
+  "title": "Educational Information ",
+  "title2": "List of Educational Information ",
+  "levelOfEducation": "Level of Education",
+  "degree": "Certificate/Degree",
+  "instritution": "Institution",
+  "result": "Result Type",
+  "resultSpecification": "Marks/CGPA/GPA",
+  "grade": "Grade/Division/Class",
+  "passingYear": "Passing Year",
+  "action": "Action",
+  "subject": "Group/Subject",
+  "majorGroup": "Major Group",
+  "organization": "Board/University"
+}

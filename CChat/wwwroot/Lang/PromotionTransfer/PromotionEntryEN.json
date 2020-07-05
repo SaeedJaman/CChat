@@ -1,0 +1,19 @@
+﻿{
+  "title": "Promotion List",
+  "titleDel": "Promotion Details",
+  "sl": "SL",
+  "employeeId": "Employee's Id",
+  "employeeName": "Employee's Name",
+  "designation": "Designation",
+  "dateOfPromotion": "Date of Promotion",
+  "promotedPayScale": "Promoted Pay Scale",
+  "natureOfPromotion": "Nature of Promotion",
+  "delayDays": "Delay Days",
+  "joiningDate": "Joining Date",
+  "basic": "Basic",
+  "goNo": "Govt.Order No",
+  "goDate": "Govt.Order Date",
+  "remarks": "Remarks",
+  "status": "Status",
+  "action": "Action"
+}

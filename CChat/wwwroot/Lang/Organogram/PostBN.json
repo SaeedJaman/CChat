@@ -1,0 +1,10 @@
+﻿{
+  "title": "পদের তথ্য",
+  "titleCls": "অর্গানোগ্রাম",
+  "organization": "প্রতিষ্ঠান",
+  "designation": "পদবি",
+  "altDesignation": "বিকল্প পদবি",
+  "numberOfPost": "পদের সংখ্যা",
+  "action": "প্রক্রিয়া",
+  "IsHead": "প্রধান কি না?"
+}

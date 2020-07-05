@@ -1,0 +1,9 @@
+﻿{
+  "title": "পুরষ্কৃত কর্মচারীর তথ্য",
+  "name": "নাম",
+  "mobileNoOffice": "অফিস মোবাইল নং",
+  "dateOfBirth": "জন্ম তারিখ",
+  "fatherName": "পিতার নাম",
+  "motherName": "মাতার নাম",
+  "action": "প্রক্রিয়া"
+}

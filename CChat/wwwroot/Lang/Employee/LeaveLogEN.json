@@ -1,0 +1,9 @@
+﻿{
+  "title": "Leave Log",
+  "whenLeave": "When Leave",
+  "type": "Type",
+  "purpose": "Purpose",
+  "from": "From Date",
+  "to": "To Date",
+  "action": "Action"
+}

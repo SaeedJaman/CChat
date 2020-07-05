@@ -1,0 +1,22 @@
+﻿{
+  "title": "প্রশিক্ষণ উদ্ভোদনী",
+  "trainingPlan": "প্রশিক্ষণ পরিকল্পনা বিবরণী নাম",
+  "traningDetailsName": "প্রশিক্ষণের বিস্তারিত নাম",
+  "startDate": "শুরুর তারিখ",
+  "endDate": "শেষের তারিখ",
+  "startTime": "শুরুর সময়",
+  "endTime": "শেষের সময়",
+  "trainingLocation": "প্রশিক্ষণস্থল",
+  "trainingScope": "প্রশিক্ষণ ক্ষেত্র",
+  "trainingName": "প্রশিক্ষণের নাম",
+  "trainingCatagory": "প্রশিক্ষণের ক্যাটাগরি",
+  "trainingOrganization": "প্রশিক্ষণের প্রতিষ্ঠান",
+  "scheduleId": "সূচীক্রম",
+  "trainerId": "প্রশিক্ষক আইডি",
+  "content": "বিষয়বস্তু",
+  "details": "বিস্তারিত",
+  "trainingLaunchName": "প্রশিক্ষণ নাম",
+  "numberOfFreeSeat": "আসন শূন্য সংখ্যা",
+  "maxParticipate": "সর্বোচ্চ অংশগ্রহণ",
+  "action": "প্রক্রিয়া"
+}

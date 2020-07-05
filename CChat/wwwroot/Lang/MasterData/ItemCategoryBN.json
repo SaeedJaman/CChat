@@ -1,0 +1,11 @@
+﻿{
+  "title": "আইটেম ক্যাটাগরী তথ্য",
+  "itemSubCategoryId": "আইটেম সাব ক্যাটাগরী",
+  "itemCategoryName": "আইটেম ক্যাটাগরী",
+  "itemCategoryPrefix": "পূর্বাক্ষর",
+  "parentCategoryName": "প্যারেন্ট আইটেম ক্যাটাগরী",
+  "description": "বর্ণনা",
+  "accountLedgerId": "হিসাবের খতিয়ান",
+  "categoryTree": "ক্যাটাগরী ট্রি শীট",
+  "action": "প্রক্রিয়া"
+}

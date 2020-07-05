@@ -1,0 +1,24 @@
+﻿{
+  "assetAssignedList": "সম্পদ নির্ধারিত তালিকা",
+  "newAssetAssign": "নতুন সম্পদ বরাদ্দ",
+  "assetNo": "সম্পদ নং",
+  "assetValue": "সম্পত্তির মূল্য",
+  "assignDate": "তারিখ বরাদ্দ করুন",
+  "deptName": "বিভাগের নাম",
+  "location": "স্থান",
+  "remarks": "মন্তব্য",
+
+  "backToReceiveList": "গ্রহণ করা তালিকায় ফিরে যান ",
+  "backToRejectList": "প্রত্যাখান তালিকায় ফিরে যান",
+  "assetNotReceiveList": "গ্রহণ না করা সম্পদ তালিকা",
+  "purchaseNo": "ক্রয় নং",
+  "receiveDate": "গ্রহণের তারিখ",
+  "purchaseDate": "ক্রয় তারিখ",
+  "supplierName": "সরবরাহকারী নাম",
+  "assetReceiveList": "সম্পদ প্রাপ্তির তালিকা",
+  "receiveBy": "গ্রহণকারী",
+  "rejectDate": "প্রত্যাখ্যান তারিখ",
+  "assetRejectList": "সম্পদ প্রত্যাখ্যান তালিকা",
+
+  "action": "কর্ম"
+}

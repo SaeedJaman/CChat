@@ -1,0 +1,11 @@
+﻿{
+  "operationalReport": "অপারেশনাল রিপোর্ট",
+  "projectName": "প্রকল্পের নাম",
+  "supplierName": "সরবরাহকারী নাম",
+  "fromDate": "শুরুর তারিখ",
+  "toDate": "সমাপ্তির তারিখ",
+  "reportType": "প্রতিবেদনের প্রকার",
+  "number": "নাম্বার ",
+  "preview": "প্রিভিউ",
+  "refresh": "রিফ্রেশ করুন"
+}

@@ -1,0 +1,13 @@
+﻿{
+  "title": "প্রশিক্ষকের তথ্য",
+  "workPlace": "কাজের স্থান",
+  "action": "প্রক্রিয়া",
+  "contactNumber": "মোবাইল নম্বর",
+  "Specialization": "বিশেষত্ব",
+  "employeeId": "কর্মচারীর আইডি",
+  "name": "নাম",
+  "designation": "পদবি/পেশা",
+  "Performance": "কর্মদক্ষতা",
+  "Remarks": "মন্তব্য",
+  "email": "ইমেইল"
+}

@@ -1,0 +1,14 @@
+﻿{
+  "title": "পরিক্ষার তথ্য",
+  "name": "পরিক্ষার নাম",
+  "trainingInfoId": "প্রশিক্ষণের নাম ",
+  "trainerId": "প্রশিক্ষকের নাম",
+  "startTimestamp": "শুরুর সময়কাল",
+  "endTimestamp": "শেষের সময়কাল",
+  "modeOfExam": "পরিক্ষার ধরণ",
+  "syllabus": "সিলেবাস",
+  "maxValue": "সর্বোচ্চ নম্বর ",
+  "minValue": "ন্যূনতম মান",
+  "unit": "একক",
+  "action": "প্রক্রিয়া"
+}

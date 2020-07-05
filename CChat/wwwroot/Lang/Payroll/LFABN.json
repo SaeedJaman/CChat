@@ -1,0 +1,20 @@
+﻿{
+  "title": "LFA তথ্য",
+  "sl": "ক্রম নং",
+  "empcode": "এমপ্লয়ি কোড",
+  "workingDays": "কর্মদিবস",
+  "designation": "পদবি",
+  "department": "বিভাগ",
+  "salaryPeriodId": "বেতনের সময়কাল",
+  "joiningDate": "যোাগদানের তারিখ",
+  "confirmDate": "নিশ্চয়নের তারিখ",
+  "employeeName": "এমপ্লয়ির নাম",
+  "lastYearBasic": "শেষ বছরে মূল বেতন",
+  "lfaAmount": "LFA পরিমাণ",
+  "lastLfaYearNo": "শেষ LFA বছর",
+  "currentLfaYearNo": "বর্তমান LFA বছর",
+  "lfaStartDate": "শুরুর তারিখ",
+  "lfaEndDate": "শেষের তারিখ",
+  "list": "LFA তালিকা",
+  "action": "প্রক্রিয়া"
+}

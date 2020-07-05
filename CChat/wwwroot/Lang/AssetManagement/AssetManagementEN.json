@@ -1,0 +1,24 @@
+{
+  "assetAssignedList": "Asset Assigned List",
+  "newAssetAssign": "New Asset Assign",
+  "assetNo": "Asset No",
+  "assetValue": "Asset Value",
+  "assignDate": "Assign Date",
+  "deptName": "Dept. Name",
+  "location": "Location",
+  "remarks": "Remarks",
+
+  "backToReceiveList": "Back To Receive List",
+  "backToRejectList": "Back To Reject List",
+  "assetNotReceiveList": "Asset Not Receive List",
+  "purchaseNo": "Purchase No",
+  "receiveDate": "Receive Date",
+  "purchaseDate": "Purchase Date",
+  "supplierName": "Supplier Name",
+  "assetReceiveList": "Asset Receive List",
+  "receiveBy": "Receive By",
+  "rejectDate": "Reject Date",
+  "assetRejectList": "Asset Reject List",
+
+  "action": "Action"
+}

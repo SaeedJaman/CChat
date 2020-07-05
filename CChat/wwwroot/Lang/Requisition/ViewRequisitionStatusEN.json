@@ -1,0 +1,21 @@
+{
+  "requisitionStatus": "Equisition Status",
+  "fromDate": "From Date",
+  "toDate": "To Date",
+  "searchType": "Search Type",
+  "requisitionNo": "Requisition No",
+  "reqDate": "Req Date",
+  "projectName": "Project Name",
+  "pRValue": "PR Value",
+  "cSNo": "CS No",
+  "cSValue": "CS Value",
+  "subject": "Subject",
+  "action": "Action",
+  "titleStatus": "Details List For Requisition Status",
+  "sLNo": "SL.No",
+  "userName": "User Name",
+  "status": "Status",
+  "dateTime": "Date Time",
+  "nextProcess": "Next Process By",
+  "back": "Back"
+}

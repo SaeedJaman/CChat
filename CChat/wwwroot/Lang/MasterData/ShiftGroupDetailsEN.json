@@ -1,0 +1,9 @@
+{
+  "title": "Shift Group Details",
+  "shiftGroupMaster": "Shift Group Master",
+  "weekDay": "Week Days",
+  "startTime": "Start Time",
+  "endTime": "End Time",
+  "isholiday": "Is holiday?",
+  "action": "Action"
+}

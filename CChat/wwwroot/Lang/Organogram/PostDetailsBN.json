@@ -1,0 +1,14 @@
+﻿{
+  "title": "পদ বিবরণী",
+  "id": "আইডি",
+  "reportingBossId": "নিয়ন্ত্রণকারী কর্মকর্তার আইডি",
+  "post": "পদ",
+  "organization": "সংস্থা",
+  "reportingBoss": "নিয়ন্ত্রণকারী কর্মকর্তা",
+  "employee": "কর্মচারী",
+  "postingType": "পদায়নের ধরণ",
+  "employmentType": "চাকুরীর ধরণ",
+  "assaignDate": "দায়িত্ব অর্পনের তারিখ",
+  "remarks": "মন্তব্য",
+  "action": "প্রক্রিয়া"
+}

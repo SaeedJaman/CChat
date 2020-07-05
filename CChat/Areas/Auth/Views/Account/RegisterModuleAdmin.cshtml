@@ -1,0 +1,85 @@
+﻿@model RegisterViewModel
+@{
+    ViewData["Title"] = "Register";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<link href="~/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+<link href="~/css/sb-admin-2.min.css" rel="stylesheet">
+
+
+<div class="container">
+    <div class="card o-hidden border-0 shadow-lg my-5">
+        <div class="row">
+            <div class="col-2">
+
+            </div>
+            <div class="col-8">
+                <div class="card-body p-4">
+                    <div class="p-5">
+                        <div class="text-center">
+                            <img src="~/images/JasonLogo.png" style="width:200px;height:100px;margin-bottom:15px;" />
+                            <br />
+                            <h5 style="color:black; margin-bottom: 12px; font-weight: 700; font-size: 30px;">User Register</h5>
+                        </div>
+                        <form class="user" asp-route-returnUrl="@ViewData["ReturnUrl"]" method="post">
+                            <div asp-validation-summary="All" class="text-danger"></div>
+                            <div class="form-group">
+                                <input type="email" class="form-control form-control-user" id="exampleInputEmail" placeholder="Email Address" name="Email">
+                            </div>
+
+                            <div class="form-group">
+                                <input type="text" class="form-control form-control-user" id="exampleInputEmail" placeholder="User ID" name="Name">
+                            </div>
+
+                            <div class="form-group">
+                                <select id="RoleId" name="RoleId" class="form-control" style="border-radius: 22px;">
+                                    <option value="0" selected="selected">Select User Role</option>
+                                    @foreach (var data in Model.userRoles)
+                                    {
+                                        if (data.RoleName != "admin")
+                                        {
+                                            if(data.RoleName!= "OPUSAdmin")
+                                            {
+                                                if (data.RoleName != "ERPAdmin")
+                                                {
+                                                   <option value="@data.RoleName">@data.RoleName</option>
+                                                }
+                                            }
+                                        }
+                                    }
+                                </select>
+                            </div>
+
+                            <div class="form-group row">
+                                <div class="col-sm-6 mb-3 mb-sm-0">
+                                    <input type="password" class="form-control form-control-user" id="exampleInputPassword" placeholder="Password" name="Password">
+                                </div>
+                                <div class="col-sm-6">
+                                    <input type="password" class="form-control form-control-user" id="exampleRepeatPassword" placeholder="Repeat Password" name="ConfirmPassword">
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-info btn-user btn-block">
+                                Register Account
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+
+            </div>
+        </div>
+        <div class="col-6">
+
+        </div>
+
+    </div>
+</div>
+
+
+
+
+

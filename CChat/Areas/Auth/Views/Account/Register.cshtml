@@ -1,0 +1,128 @@
+﻿@model RegisterViewModel
+@{
+    ViewData["Title"] = "Register";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<link href="~/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+<link href="~/css/sb-admin-2.min.css" rel="stylesheet">
+@section Style{
+    @*<link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">*@
+    <style>
+        .ui-autocomplete {
+            cursor: pointer;
+            height: 400px;
+            width: 300px;
+            overflow-y: scroll;
+            background-color: white;
+            color: rgb(0,188,212);
+            z-index: 1050;
+            /*outline-style:outset;*/
+        }
+    </style>
+}
+
+
+<div class="container">
+    <div class="card o-hidden border-0 shadow-lg my-5">
+        <div class="row">
+            <div class="col-2">
+
+            </div>
+            <div class="col-8">
+                <div class="card-body p-4">
+                    <div class="p-5">
+                        <div class="text-center">
+                            <img src="~/images/Bangladesh-Govt-Logo.jpg" style="width:200px;height:100px;margin-bottom:15px;" />
+                            <br />
+                            <h5 style="color:black; margin-bottom: 12px; font-weight: 700; font-size: 30px;">User Register</h5>
+                        </div>
+                        <form class="user" asp-route-returnUrl="@ViewData["ReturnUrl"]" method="post" data-parsley-validate="parsley">
+                            <div asp-validation-summary="All" class="text-danger"></div>
+                            <div class="form-group">
+                                <input type="text" class="form-control form-control-user" id="empName" placeholder="Employee Name" name="empName" required>
+                                <input type="hidden" id="EmpCode" name="EmpCode">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control form-control-user" id="Email" placeholder="Email Address" name="Email" required>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="text" class="form-control form-control-user" id="Name" placeholder="User ID" name="Name" required>
+                            </div>
+
+                            <div class="form-group">
+                                <select id="RoleId" name="RoleId" class="form-control" style="border-radius: 22px;" required>
+                                    <option value="0" selected="selected">Select User Role</option>
+                                    @foreach (var data in Model.userRoles)
+                                    {
+                                        <option value="@data.RoleName">@data.RoleName</option>
+                                    }
+                                </select>
+                            </div>
+
+                            <div class="form-group row">
+                                <div class="col-sm-6 mb-3 mb-sm-0">
+                                    <input type="password" class="form-control form-control-user" id="exampleInputPassword" placeholder="Password" name="Password" required>
+                                </div>
+                                <div class="col-sm-6">
+                                    <input type="password" class="form-control form-control-user" id="exampleRepeatPassword" placeholder="Repeat Password" name="ConfirmPassword" required>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-info btn-user btn-block">
+                                Register Account
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+
+            </div>
+        </div>
+        <div class="col-6">
+
+        </div>
+
+    </div>
+</div>
+
+@section Scripts{
+    <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js" type="text/javascript"></script>
+    <script src="https://code.jquery.com/jquery-migrate-3.0.0.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        function GetEmployeeInfo(response) {
+            var lstPOP = [];
+            $.each(response, function (i, option) {
+                var obj = new Object();
+                obj.key = option.employeeCode;
+                obj.value = option.nameEnglish + " - " + option.employeeCode;
+                obj.email = option.emailAddress;
+                lstPOP[lstPOP.length] = obj;
+            });
+            $('#empName').autocomplete({
+                source: lstPOP,
+                select: function (event, ui) {
+                    $("#empName").val(ui.item.value);
+                    $("#EmpCode").val(ui.item.key);
+                    $("#Email").val(ui.item.email);
+                }
+            });
+
+        }
+
+
+        $(document).ready(function () {
+
+            Common.Ajax('GET', '/global/api/GetAllEmployeeInfo/', [], 'json', GetEmployeeInfo);
+
+        });
+    </script>
+}
+
+
+
+

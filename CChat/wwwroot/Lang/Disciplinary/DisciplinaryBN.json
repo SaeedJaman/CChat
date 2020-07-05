@@ -1,0 +1,21 @@
+﻿{
+  "title": "শাস্তিমূলক ব্যবস্থা",
+  "employeeId": "কর্মচারীর আইডি",
+  "employeeName": "কর্মচারীর নাম",
+  "designation": "পদবি",
+  "offense": "অপরাধ",
+  "naturalPunishment": "শাস্তির ধরণ",
+  "punishmentDate": "সরকারি আদেশ এর তারিখ",
+  "goWithDate": "সরকারি আদেশ নং",
+  "goAttachment": "সরকারি আদেশ সংযুক্তি",
+  "startFrom": "শুরুর তারিখ",
+  "endTo": "শেষের তারিখ",
+  "offenseDescription": "অপরাধ বিবরণী",
+  "remarks": "মন্তব্য",
+  "applicationApproval": "অনুমোদন তালিকা",
+  "approveBy": "অনুমোদন কর্মকর্তা",
+  "approvalDate": "অনুমোদন তারিখ",
+  "comments": "মন্তব্য",
+  "action": "প্রক্রিয়া",
+  "status": "অবস্থা"
+}

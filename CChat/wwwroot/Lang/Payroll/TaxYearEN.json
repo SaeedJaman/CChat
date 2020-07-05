@@ -1,0 +1,11 @@
+﻿{
+  "title": "Tax Year Info",
+  "taxYear": "Tax Year",
+  "startDate": "Start Date",
+  "endDate": "End Date",
+  "taxLimit": "Tax Limit",
+  "perquisite": "Allowable Perquisite",
+  "assesmentYear": "Assessment Year",
+  "list": "List of Tax Year",
+  "action": "Action"
+}

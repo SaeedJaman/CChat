@@ -1,0 +1,19 @@
+﻿{
+  "title": "পদোন্নতির তালিকা",
+  "titleDel": "পদোন্নতির বিবরণ",
+  "sl": "ক্রমিক নং",
+  "employeeId": "কর্মচারীর আইডি",
+  "employeeName": "কর্মচারীর নাম",
+  "designation": "পদবি",
+  "dateOfPromotion": "পদোন্নতির তারিখ",
+  "promotedPayScale": "পদোন্নতি পরবর্তী পে স্কেল",
+  "natureOfPromotion": "পদোন্নতির ধরণ",
+  "delayDays": "যোগদানে বিলম্ব দিন",
+  "joiningDate": "যোগদানের তারিখ",
+  "basic": "মূল বেতন",
+  "goNo": "সরকারি আদেশ নং",
+  "goDate": "সরকারি আদেশের তারিখ",
+  "remarks": "মন্তব্য",
+  "status": "অবস্থা",
+  "action": "প্রক্রিয়া"
+}

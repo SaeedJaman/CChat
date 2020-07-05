@@ -1,0 +1,13 @@
+﻿{
+  "title": "প্রশিক্ষণের নাম সেটআপ",
+  "trainingName": "প্রশিক্ষণের নাম",
+  "isMandatory": "বাধ্যতামূলক কি না?",
+  "trainingType": "প্রশিক্ষণের ধরণ",
+  "objective": "উদ্দেশ্য",
+  "description": "বিবরণ",
+  "syllebus": "প্রশিক্ষণের সিলেবাস",
+  "unit": "একক",
+  "duration": "সময়কাল",
+  "trainingCatagory": "প্রশিক্ষণ ক্যাটাগরি",
+  "action": "প্রক্রিয়া"
+}

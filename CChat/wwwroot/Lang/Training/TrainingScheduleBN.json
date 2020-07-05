@@ -1,0 +1,10 @@
+﻿{
+  "title":"প্রশিক্ষণের সূচী",
+  "trainingName": "প্রশিক্ষণের নাম",
+  "scheduleDate": "তারিখ",
+  "endDate": "শেষ তারিখ",
+  "startTime": "শুরু সময়",
+  "endTime": "শেষ সময়",
+  "subject": "বিষয়",
+  "resourcePerson": "দায়িত্বশীল ব্যাক্তি"
+}

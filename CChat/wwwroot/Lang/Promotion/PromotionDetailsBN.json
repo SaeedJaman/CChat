@@ -1,0 +1,10 @@
+﻿{
+  "title": "পদোন্নতির বিবরণ",
+  "promotionType": "পদোন্নতির ধরণ",
+  "designation": "পদবি",
+  "promotionDate": "পদোন্নতির তারিখ",
+  "salaryGrade": "বেতন গ্রেড",
+  "basic": "মূল বেতন",
+  "remarks": "মন্তব্য",
+  "action": "প্রক্রিয়া"
+}

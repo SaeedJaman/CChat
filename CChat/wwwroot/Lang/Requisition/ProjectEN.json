@@ -1,0 +1,12 @@
+{
+  "title": "Project Information",
+  "name": "Project Name",
+  "location": "Project Location",
+  "status": "Status",
+  "shortName": "Short Name",
+  "designation": "Designation",
+  "incharge": "Incharge",
+  "submit": "Submit",
+  "list": "Project List",
+  "action": "Action"
+}

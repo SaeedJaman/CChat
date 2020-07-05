@@ -1,0 +1,8 @@
+﻿{
+  "title": "Payroll Report",
+  "reportType": "Report Type",
+  "sbu": "SBU Name",
+  "periodName": "Period Name",
+  "empName": "Employee's Name",
+  "taxYear": "Tax Year"
+}

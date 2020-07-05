@@ -1,0 +1,13 @@
+{
+  "title": "Budget Requisition",
+  "reqNo": "Requisition No",
+  "fiscalYear": "Fiscal Year",
+  "date": "Date",
+  "save": "Save",
+  "refresh": "Refresh",
+  "back": "Back to List",
+  "reqDetailFile": "Requisition Detail File",
+  "select": "Select File",
+  "add": "Add",
+  "productionBatch": "Production Batch"
+}

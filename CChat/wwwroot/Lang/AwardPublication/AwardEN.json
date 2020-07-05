@@ -1,0 +1,11 @@
+﻿{
+  "awardEntry": "Award Entry",
+  "employeeId": "Employee ID",
+  "employeeName": "Employee Name",
+  "designation": "Designation",
+  "awardName": "Award Name",
+  "purpose": "Purpose",
+  "awardDate": "Award Date",
+  "action": "Action",
+  "status": "Status"
+}

@@ -1,0 +1,11 @@
+{
+  "operationalReport": "Operational Report",
+  "projectName": "Project Name",
+  "supplierName": "Supplier Name",
+  "fromDate": "From Date",
+  "toDate": "To Date",
+  "reportType": "Report Type",
+  "number": "Number",
+  "preview": "Preview",
+  "refresh": "Refresh"
+}

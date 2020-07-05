@@ -1,0 +1,20 @@
+﻿{
+  "title": "বদলি নিবন্ধন",
+  "titleDet": "বদলি বিবরণী",
+  "sl": "ক্রমিক নং",
+  "employeeId": "কর্মচারীর আইডি",
+  "employeeName": "কর্মচারীর নাম",
+  "designation": "পদবি",
+  "currentDesignation": "বর্তমান পদবি",
+  "currentWorkingPlace": "বর্তমান কর্মস্থল",
+  "grade": "গ্রেড",
+  "newDesignation": "নতুন পদবি",
+  "transferWorkingPlace": "বদলিকৃত কর্মস্থল",
+  "newGrade": "নতুন গ্রেড",
+  "officeOrderDate": "অফিস আদেশর তারিখ",
+  "effectDate": "কার্যকরী তারিখ",
+  "joiningDate": "যোগদানের তারিখ",
+  "remarks": "মন্তব্য",
+  "status": "অবস্থা",
+  "action": "প্রক্রিয়া"
+}

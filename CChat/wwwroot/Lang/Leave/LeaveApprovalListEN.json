@@ -1,0 +1,16 @@
+{
+  "title": "Leave Approval List",
+  "leaveTypeSetup": "Leave Type Setup",
+  "id": "ID",
+  "leaveType": "Leave Type",
+  "leaveTypeName": "Leave Type",
+  "leaveFrom": "Leave From",
+  "leaveTo": "Leave To",
+  "leaveDays": "Leave Days",
+  "reason": "Reason",
+  "status": "Status",
+  "description": "Description",
+  "action": "Action",
+  "totalDays": "Total Days",
+  "leavePurpose": "Leave Purpose"
+}

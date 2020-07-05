@@ -1,0 +1,11 @@
+﻿{
+  "title": "Employees Bonus Process",
+  "salaryHeadId": "Bonus Head",
+  "salaryPeriodId": "Salary Period",
+  "bonusFor": "Bonus For",
+  "lastDayofPeriod": "Last Day of Period",
+  "tottalEmployee": "Total Employee",
+  "employeeName": "Employee Name",
+  "process": "Process",
+  "action": "Action"
+}

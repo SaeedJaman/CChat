@@ -1,0 +1,18 @@
+﻿{
+  "title": "Arrear Calculation",
+  "sl": "ক্রম নং",
+  "empCode": "এমপ্লয়ি কোড",
+  "employeeName": "এমপ্লয়ির নাম",
+  "designation": "পদবি",
+  "department": "বিভাগ",
+  "salaryPeriodId": "বেতনের সময়কাল",
+  "salaryHeadId": "বেতনের খাত",
+  "txtArrear": "বকেয়া বেতন",
+  "txtBonus": "বকেয়া বোনাস",
+  "arrearAmount": "বকেয়ার পরিমাণ",
+  "calculate": "হিসাব করুন",
+  "amount": "পরিমাণ",
+  "ratio": "অনুপাত",
+  "list": "বকেয়া তালিকা",
+  "action": "প্রক্রিয়া"
+}

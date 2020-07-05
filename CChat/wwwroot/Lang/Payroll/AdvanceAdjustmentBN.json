@@ -1,0 +1,18 @@
+﻿{
+  "title": "অগ্রিম সমন্বয়",
+  "sl": "ক্রম নং",
+  "empcode": "এমপ্লয়ি কোড",
+  "workingDays": "কর্ম দিবস",
+  "designation": "পদবি",
+  "department": "বিভাগ",
+  "salaryPeriodId": "শুরুর সময়কাল",
+  "salaryHeadId": "বেতনের খাত",
+  "advanceAmount": "সমন্বয়কৃত অর্থ",
+  "employeeName": "এমপ্লয়ির নাম",
+  "installmentAmount": "মাসিক কিস্তি",
+  "noOfInstallment": "কিস্তি সংখ্যা",
+  "purpose": "উদ্দেশ্য",
+  "isContinue": "চলমান?",
+  "list": "অগ্রিম সমন্বয় তালিকা",
+  "action": "প্রক্রিয়া"
+}

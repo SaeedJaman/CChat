@@ -1,0 +1,19 @@
+﻿{
+  "title1": "প্রয়োজনীয় তালিকা",
+  "iOUList": "IOU তালিকা",
+  "requisitionNo": "অনুরোধ নং",
+  "requisitionDate": "অনুরোধ তারিখ",
+  "subject": "বিষয়",
+  "targetDeliveryDate": "লক্ষ্য বিতরণের তারিখ",
+  "status": "অবস্থা",
+  "action": "প্রক্রিয়া",
+  "title2": "IOU তালিকা অনুমোদন করুন",
+  "iOUDate": "IOU তারিখ",
+  "iOUNo": "IOU নং",
+  "deliveryDate": "বিতরণ তারিখ ",
+  "iOUValue": "IOU মূল্য",
+  "pRNo": "PR. নং",
+  "title3": "IOU তালিকা",
+  "createIOU": "IOU তৈরি করুন",
+  "title4": "IOU মুদ্রিত তালিকা"
+}

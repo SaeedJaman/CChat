@@ -1,0 +1,14 @@
+{
+  "title": "Training Exam Information",
+  "name": "Exam Name",
+  "trainingInfoId": "Training Info",
+  "trainerId": "Trainer Info",
+  "startTimestamp": "Start Timestamp",
+  "endTimestamp": "End Timestamp",
+  "modeOfExam": "Mode Of Exam",
+  "syllabus": "Syllabus",
+  "maxValue": "Max Marks",
+  "minValue": "Min Markes",
+  "unit": "Unit",
+  "action": "Action"
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Promotion Details",
+  "promotionType": "Promotion Type",
+  "designation": "Designation",
+  "promotionDate": "Promotion Date",
+  "salaryGrade": "Salary Grade",
+  "basic": "Basic",
+  "remarks": "Remarks",
+  "action": "Action"
+}

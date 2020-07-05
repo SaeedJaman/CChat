@@ -1,0 +1,41 @@
+{
+  "title": "Training Planning (Local)",
+  "titleF": "Training Planning (Foreign)",
+  "titleEv": "Training Evaluation",
+  "titleList": "Planned Training List",
+  "titleReport": "Training Report",
+  "planeName": "Plan Name",
+  "planeStartDate": "Starting Date",
+  "planeEndDate": "Ending Date",
+  "trainingName": "Training Name",
+  "duration": "Duration",
+  "participant": "No of Participant",
+  "trainingType": "Training Type",
+  "noOfTraining": "No of Training",
+  "expectedStartDate": "Expected Starting Date",
+  "expectedEndDate": "Expected Ending Date",
+  "organization": "Organization",
+  "action": "Action",
+
+  "course": "Course Title",
+  "courseObjective": "Course Objective",
+  "amount": "Amount (BDT)",
+  "year": "Year",
+  "employeeType": "Trainee Type",
+  "budget": "Source of Fund",
+
+  "designation": "Designation",
+  "orgType": "Organization",
+  "mobileNumberOffice": "Mobile Number",
+
+  "employeeName": "Employee Name",
+  "place": "Position in Training",
+  "completionStatus": "Completion Status",
+  "remark": "Remarks",
+
+  "startDateActual": "Actual Starting Date",
+  "endDateActual": "Actual Ending Date",
+
+  "country": "Country",
+  "location": "Location"
+}

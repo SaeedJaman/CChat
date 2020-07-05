@@ -1,0 +1,14 @@
+﻿{
+  "title": "আবেদনকৃত ছুটির তালিকা",
+  "leaveTypeSetup": "ছুটির ধরণ সেটআপ",
+  "id": "আইডি",
+  "leaveType": "ছুটির ধরণ",
+  "leaveTypeName": "ছুটির ধরণ",
+  "leaveFrom": "তারিখ হতে",
+  "leaveTo": "তারিখ পর্যন্ত",
+  "totalDays": "মোট ছুটি",
+  "leavePurpose": "ছুটির কারণ",
+  "status": "অবস্থা",
+  "description": "বিবরণ",
+  "action": "প্রক্রিয়া"
+}

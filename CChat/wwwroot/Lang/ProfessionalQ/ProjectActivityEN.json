@@ -1,0 +1,10 @@
+{
+  "title": "Project Activity",
+  "hRProjectId": "Project",
+  "hRActivityId": "Activity",
+  "hRDonerId": "Doner",
+  "isActive": "Is Active",
+  "list": "List of Project Activity",
+  "action": "Action",
+   "status" :  "Status"
+}

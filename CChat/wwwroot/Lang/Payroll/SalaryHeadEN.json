@@ -1,0 +1,14 @@
+﻿{
+  "title": "Salary Head Info",
+  "salaryHeadName": "Head Name",
+  "salaryHeadCode": "Head Code",
+  "salaryHeadType": "Head Type",
+  "isArrear": "Is Arrear",
+  "isBonus": "Is Bonus",
+  "sortOrder": "Sort Order",
+  "isIncomeTax": "Is Income Tax",
+  "isInvestments": "Is Investments",
+  "isAdvance": "Is Advance",
+  "list": "Salary Head List",
+  "action": "Action"
+}

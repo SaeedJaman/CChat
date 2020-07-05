@@ -1,0 +1,505 @@
+﻿@model HomeViewModel
+@{
+    ViewData["Title"] = "Home";
+    Layout = "~/Views/shared/_Layout.cshtml";
+}
+
+
+@if (ViewBag.RoleId == "5a683be2-d698-4be0-b59b-cf6ef247590e")
+{
+    @*Program Area*@
+    <div class="row card">
+        <div class="col-sm-5">
+            <span style="font-size:1.5em;font-weight:800;color:dodgerblue;">PROGRAM</span>
+        </div>
+    </div>
+    <div style="height:15px;"></div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="row">
+                    <div class="col-xs-12 col-md-12 text-center" style="padding-right: 0;font-weight:bold;font-family:'Times New Roman', Times, serif">
+
+                        <a href="javascript:void(0)" onclick="getstreaming()" class="btn btn-info btn-lg clsSales" role="button" style="width:22%;height:130px;background-color:#ff6a00">
+                            <br /><span class="pull-left">Number Of Program Plan</span><br />
+                            @*<span class="pull-left"><span id="NOS"></span>@Model.programDashboardViewModel.plan</span>*@<br />
+                        </a>&nbsp;&nbsp;
+
+                        <a href="javascript:void(0)" onclick="" data-toggle="modal" data-target="#registerModal" class="btn btn-info btn-lg clsSales" role="button" style="width:22%;height:130px;background-color:#1C4E80">
+                            <br /><span class="pull-left">Number Of Program</span><br />
+                            @*<span class="pull-left"><span id="txtRevenue"></span>@Model.programDashboardViewModel.program</span>*@<br />
+                        </a>&nbsp;&nbsp;
+
+                        <a id="profit" href="javascript:void(0)" onclick="" class="btn btn-info btn-lg clsSales" role="button" style="width:22%;height:130px;background-color:#AC3E31">
+                            <br /><span class="pull-left">Highest participants</span><br />
+                            @*<span class="pull-left"><span id="txtProfit"></span>@Model.programDashboardViewModel.perticipents</span>*@
+                        <br />
+                        </a>&nbsp;&nbsp;
+
+                        <a id="Videos" href="javascript:void(0)" data-toggle="modal" data-target="#videosModal" class="btn btn-info btn-lg clsSales" role="button" style="width:22%;height:130px;background-color:#808080;">
+                            <br /><span class="pull-left">Number of Videos</span><br />
+                            @*<span class="pull-left"><span id="txtCost"></span>@Model.programDashboardViewModel.videos</span>*@
+                            <br />
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div style="height:15px;"></div>
+
+            <div class="row">
+                <div class="col-7" style="padding-right:5px;">
+                    <div class="card shadow mb-4">
+                        <div class="card-header py-3">
+                            <h6 class="m-0 font-weight-bold text-primary">Latest Video</h6>
+                        </div>
+                        <div class="card-body">
+                            <center>
+                                @*<h5 class="text-center text-primary">@Model.programVideos.FirstOrDefault()?.title</h5>*@
+                                <video id="my-video"
+                                       class="video-js"
+                                       controls
+                                       preload="auto"
+                                       width="500"
+                                       height="300"
+                                       poster=""
+                                       data-setup="{}">
+                                    @*<source src="~/@Model.programVideos.FirstOrDefault()?.url" type="video/mp4" />
+                                      <source src="~/@Model.programVideos.FirstOrDefault()?.url" type="video/webm" />*@
+
+                                </video>
+                            </center>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-5">
+                    <div class="card shadow mb-4">
+                        <div class="card-header py-3">
+                            <h6 class="m-0 font-weight-bold text-primary">Top 5 Program Based on Participants</h6>
+                        </div>
+                        <table class="table table-bordered table-striped" style="line-height:.9" id="tblSalesItem">
+                            <thead>
+                                <tr><th style="color:black;">Name</th><th style="color:black;">Participants</th></tr>
+                            </thead>
+                            <tbody>
+                                @*@foreach (var data in Model.programDashboardViewModel.masterPerticipants)
+                                {
+                                    <tr>
+                                        <td>@data.name</td>
+
+
+                                        <td>@data.count</td>
+                                    </tr>
+                                }*@
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="card shadow mb-4">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <a href="https://btv.portal.gov.bd/site/page/64915c73-e02f-4973-9cc3-15ce6f1f7f1a" target="_blank">
+                                    <img class="img-circle" style="height:100px;width:100px; border-radius: 55px;" src="~/images/btv.png" />
+                                </a>
+                            </div>
+                            <div class="col-sm-4">
+                                <a href="http://www.jagobd.com/btvworld" target="_blank">
+                                    <img src="~/images/btvworld.jpg" class="img-circle" style="height:100px;width:100px; border-radius: 55px;" />
+                                </a>
+                            </div>
+                            <div class="col-sm-4 ">
+                                <a href="https://www.jagobd.com/songsadtv" target="_blank">
+                                    <img class="img-circle" style="height:100px;width:100px; border-radius: 55px;" src="~/images/songsodtv.jpg" />
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr style="border:solid;border-color:black;border-width:1px;" />
+    <div style="width:20px;"></div>
+}
+
+
+@if (ViewBag.RoleId == "ebf5586d-41e0-4625-a248-fbffa2aa844e")
+{
+
+    @*HRM Area*@
+    <div class="row card">
+        <div class="col-sm-5">
+            <span style="font-size:1.5em;font-weight:800;color:dodgerblue;">HRM</span>
+        </div>
+    </div>
+    <div style="height:15px;"></div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="row">
+                    <div class="col-xs-12 col-md-12 text-center" style="padding-right: 0;font-weight:bold;font-family:'Times New Roman', Times, serif">
+
+                        <a id="employeess" href="/HRPMSEmployee/Info/AllEmployeeList" onclick="" data-toggle="" data-target="" class="btn btn-info btn-lg clsSales" role="button" style="width:22%;height:130px;background-color:#ff6a00">
+                            <br /><span class="pull-left">Number Of Employee</span><br />
+                            @*<span class="pull-left"><span id="NOS"></span>@Model.hRMDashboardViewModel.employees</span>*@
+                        <br />
+                        </a>&nbsp;&nbsp;
+
+                        @*This below portion is functional, it shows popup with data and cv pdf link   --Saeed on 23/03/2020*@
+
+                        @*<a id="employeess" href="javascript:void(0)" onclick="" data-toggle="modal" data-target="#employeesModal" class="btn btn-info btn-lg clsSales" role="button" style="width:22%;height:130px;background-color:#ff6a00">
+                            <br /><span class="pull-left">Number Of Employee</span><br />
+                            <span class="pull-left"><span id="NOS"></span>@Model.hRMDashboardViewModel.employees</span><br />
+                        </a>&nbsp;&nbsp;*@
+
+                        <a href="/HRPMSTrainingNew/TrainingPlanning/Index" onclick="" data-toggle="" data-target="" class="btn btn-info btn-lg clsSales" role="button" style="width:22%;height:130px;background-color:#1C4E80">
+                            <br /><span class="pull-left">Training Planing</span><br />
+                            @*<span class="pull-left"><span id="txtRevenue"></span>@Model.hRMDashboardViewModel.training</span>*@
+                        <br />
+                        </a>&nbsp;&nbsp;
+
+                        <a id="profit" href="/HRPMSMasterData/SpecialBranceUnit/Index" onclick="" class="btn btn-info btn-lg clsSales" role="button" style="width:22%;height:130px;background-color:#AC3E31">
+                            <br /><span class="pull-left">Total Office</span><br />
+                            @*<span class="pull-left"><span id="txtProfit"></span>@Model.hRMDashboardViewModel.officeBranches</span>*@
+                        <br />
+                        </a>&nbsp;&nbsp;
+                        <a id="Cost" href="javascript:void(0)" onclick="" class="btn btn-info btn-lg clsSales" role="button" style="width:22%;height:130px;background-color:#808080;">
+                            <br /><span class="pull-left">Enrolled Trainee</span><br />
+                            @*<span class="pull-left"><span id="txtCost"></span>@Model.hRMDashboardViewModel.enrolledTrainees</span>*@
+                            <br />
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div style="height:15px;"></div>
+
+            <div class="row" style="display:none;">
+                <div class="col-7" style="padding-right:5px;">
+                    <div class="card shadow mb-4">
+                        <div class="card-header py-3">
+                            <h6 class="m-0 font-weight-bold text-primary">Yearly Employee Late Chart</h6>
+                        </div>
+                        <div class="card-body">
+                            <div class="chart-area">
+                                <canvas id="myAreaChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-5">
+                    <div class="card shadow mb-4">
+                        <div class="card-header py-3">
+                            <h6 class="m-0 font-weight-bold text-primary">Top 5 Employee Based on Attendance</h6>
+                        </div>
+                        <table class="table table-bordered table-striped" style="line-height:.9" id="tblSalesItem">
+                            <thead>
+                                <tr><th style="color:black;">Name</th><th style="color:black;">Attendance</th></tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Md. Bashar Naim</td>
+                                    <td>250</td>
+                                </tr>
+                                <tr>
+                                    <td>Md. Mahmudul Hasan</td>
+                                    <td>200</td>
+                                </tr>
+                                <tr>
+                                    <td>Md. Suzauddola</td>
+                                    <td>225</td>
+                                </tr>
+                                <tr>
+                                    <td>Mahbubur Rahman</td>
+                                    <td>250</td>
+                                </tr>
+                                <tr>
+                                    <td>Ruhul Islam</td>
+                                    <td>300</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr style="border:solid;border-color:black;border-width:1px;" />
+    <div style="width:20px;"></div>
+}
+
+
+@if (ViewBag.RoleId == "47569a26-8192-4012-a9d4-46973b557f65")
+{
+    @*HRM Area*@
+
+    <div class="row card">
+        <div class="col-sm-5">
+            <span style="font-size:1.5em;font-weight:800;color:dodgerblue;">Inventory</span>
+        </div>
+    </div>
+    <div style="height:15px;"></div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="row">
+                    <div class="col-xs-12 col-md-12 text-center" style="padding-right: 0;font-weight:bold;font-family:'Times New Roman', Times, serif">
+
+                        <a href="javascript:void(0)" onclick="" data-toggle="modal" data-target="#registerModal" class="btn btn-info btn-lg clsSales" role="button" style="width:22%;height:130px;background-color:#ff6a00">
+                            <br /><span class="pull-left">Number Of Issue</span><br />
+                            <span class="pull-left"><span id="NOS"></span>156</span><br />
+                        </a>&nbsp;&nbsp;
+
+                        <a href="javascript:void(0)" onclick="" data-toggle="modal" data-target="#registerModal" class="btn btn-info btn-lg clsSales" role="button" style="width:22%;height:130px;background-color:#1C4E80">
+                            <br /><span class="pull-left">Number of Purchase </span><br />
+                            <span class="pull-left"><span id="txtRevenue"></span>150</span><br />
+                        </a>&nbsp;&nbsp;
+
+                        <a id="profit" href="javascript:void(0)" onclick="" class="btn btn-info btn-lg clsSales" role="button" style="width:22%;height:130px;background-color:#AC3E31">
+                            <br /><span class="pull-left">Item In stock</span><br />
+                            <span class="pull-left"><span id="txtProfit"></span>1506</span><br />
+                        </a>&nbsp;&nbsp;
+                        <a id="Cost" href="javascript:void(0)" onclick="" class="btn btn-info btn-lg clsSales" role="button" style="width:22%;height:130px;background-color:#808080;">
+                            <br /><span class="pull-left">Cost For Purchase</span><br />
+                            <span class="pull-left"><span id="txtCost"></span>154000</span><br />
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div style="height:15px;"></div>
+
+            <div class="row">
+                <div class="col-7" style="padding-right:5px;">
+                    <div class="card shadow mb-4">
+                        <div class="card-header py-3">
+                            <h6 class="m-0 font-weight-bold text-primary">Yearly Purchase Chart</h6>
+                        </div>
+                        <div class="card-body">
+                            <div class="chart-bar">
+                                <canvas id="myBarChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-5">
+                    <div class="card shadow mb-4">
+                        <div class="card-header py-3">
+                            <h6 class="m-0 font-weight-bold text-primary">Top 5 Item</h6>
+                        </div>
+                        <table class="table table-bordered table-striped" style="line-height:.9" id="tblSalesItem">
+                            <thead>
+                                <tr><th style="color:black;">Name</th><th style="color:black;">Number</th></tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Meeting Table</td>
+                                    <td>300</td>
+                                </tr>
+                                <tr>
+                                    <td>Chair</td>
+                                    <td>250</td>
+                                </tr>
+                                <tr>
+                                    <td>Fan</td>
+                                    <td>225</td>
+                                </tr>
+                                <tr>
+                                    <td>Small Table</td>
+                                    <td>200</td>
+                                </tr>
+                                <tr>
+                                    <td>Light</td>
+                                    <td>100</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr style="border:solid;border-color:black;border-width:1px;" />
+    <div style="width:20px;"></div>
+}
+<div class="modal fade" id="employeesModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="row" style="width:100%;">
+                    <div class="col-3">
+                        <img src="~/images/Bangladesh-Govt-Logo.jpg" style="height:69px; width:69px;" />
+                    </div>
+                    <div class="col-8">
+                        <h3 class="modal-title text-center" id="exampleModalLabel" style="font-size: 20px;padding-top: 14px; color:black">List of Employees</h3>
+                    </div>
+                    <div class="col-1">
+                        <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">×</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-body">
+                <table class="table table-bordered table-striped" style="line-height:.9" id="tblemployeesItem">
+                    <thead>
+                        <tr>
+                            <th>SL#</th>
+                            <th>Employee Name</th>
+                            <th>Designation</th>
+                            <th>Action</th>
+
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="videosModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="row" style="width:100%;">
+                    <div class="col-3">
+                        <img src="~/images/Bangladesh-Govt-Logo.jpg" style="height:69px; width:69px;" />
+                    </div>
+                    <div class="col-8">
+                        <h3 class="modal-title text-center" id="exampleModalLabel" style="font-size: 20px;padding-top: 14px; color:black">List of Videos</h3>
+                    </div>
+                    <div class="col-1">
+                        <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">×</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-body">
+                <table class="table table-bordered table-striped" style="line-height:.9" id="tblvideosItem">
+                    <thead>
+                        <tr>
+                            <th>Serial Name</th>
+                            <th>Video Title</th>
+                            <th>Action</th>
+
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="btvModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="row" style="width:100%;">
+                    <div class="col-3">
+                        <img src="~/images/Bangladesh-Govt-Logo.jpg" style="height:69px; width:69px;" />
+                    </div>
+                    <div class="col-8">
+                        <h3 class="modal-title text-center" id="exampleModalLabel" style="font-size: 20px;padding-top: 14px; color:black">Video Streaming</h3>
+                    </div>
+                    <div class="col-1">
+                        <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">×</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-body">
+                @*<iframe src="https://btv.portal.gov.bd/site/page/64915c73-e02f-4973-9cc3-15ce6f1f7f1a">
+
+                    </iframe>*@
+                <center><video autoplay="autoplay" id="video" width="640" height="480"></video></center>
+
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts{
+    <script src="~/vendor/chart.js/Chart.min.js"></script>
+    <script src="~/js/demo/chart-area-demo.js"></script>
+    <script src="~/js/demo/chart-bar-demo.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#Videos").click(function () {
+                Common.Ajax('GET', '/global/api/GetProgramVideo/', [], 'json', GetSalesData);
+            });
+
+            $("#employeess").click(function () {
+                Common.Ajax('GET', '/global/api/GetAllEmployeeInfo/', [], 'json', GetEmployeeInfo);
+            });
+        });
+        function getstreaming() {
+
+            $('#btvModal').modal('show');
+            //var video = document.getElementById('video');
+            var video = document.querySelector("#video");
+            navigator.getUserMedia = navigator.getUserMedia;
+            if (navigator.getUserMedia) {
+                navigator.getUserMedia({ video: true }, handleVideo, videoError)
+
+            }
+        }
+        function handleVideo(stream) {
+
+            video.src = window.URL.createObjectURL(stream);
+        };
+        function videoError(e) { };
+        function GetSalesData(response) {
+            var i = 1;
+            $("#tblvideosItem tbody>tr").remove();
+            $.each(response, function (key, value) {
+                var dtTable = $("#tblvideosItem");
+                var tableBody = dtTable.find('tbody');
+                var trHtml = '<tr><td>' + i + '</td><td>' + value.title + '</td><td><a style="color:white" href="/Program/Videos/SingleVideo/' + value.Id + '" class="btn btn-success"><i class="fa fa-eye"></i></a></td></tr>';
+                tableBody.append(trHtml);
+                i = i + 1;
+            });
+        }
+
+        function GetEmployeeInfo(response) {
+            var i = 1;
+            $("#tblemployeesItem tbody>tr").remove();
+            $.each(response, function (key, value) {
+                var dtTable = $("#tblemployeesItem");
+                var tableBody = dtTable.find('tbody');
+                var trHtml = '<tr><td>' + i + '</td><td>' + value.nameEnglish + '</td><td>' + value.designation + '</td><td><a style="color:white" href="/HRPMSEmployee/InfoView/pdspdf/' + value.Id + '" class="btn btn-success"><i class="fa fa-eye"></i></a></td></tr>';
+                tableBody.append(trHtml);
+                i = i + 1;
+            });
+        }
+
+    </script>
+}

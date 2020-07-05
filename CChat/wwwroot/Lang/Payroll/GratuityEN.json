@@ -1,0 +1,13 @@
+﻿{
+  "title": "Gratuity Information",
+  "empName": "Emp Name",
+  "empCode": "Emp Code",
+  "designation": "Designation",
+  "joiningDate": "Joining Date",
+  "uptodate": "Up to Date",
+  "basic": "Basic",
+  "year": "Year",
+  "gratuity": "Gratuity",
+  "list": "Gratuity List",
+  "action": "Action"
+}

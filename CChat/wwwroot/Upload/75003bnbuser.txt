@@ -1,0 +1,10 @@
+
+INSERT INTO AspNetUsers
+(Id, UserName, NormalizedUserName, Email, NormalizedEmail,EmailConfirmed,PhoneNumberConfirmed, PasswordHash, SecurityStamp,EmpCode,  userTypeId,  companyId, projectId,MaxAmount,TwoFactorEnabled
+,LockoutEnabled,AccessFailedCount,userId)
+select Id, UserName,UPPER(UserName), Email,UPPER(Email),EmailConfirmed,PhoneNumberConfirmed,PasswordHash,SecurityStamp,EmpCode, UserTypeID, OrganaizationID,1,  MaxAmount,TwoFactorEnabled,LockoutEnabled
+,AccessFailedCount,UserID from db_BnB_SCM_New.dbo.AspNetUsers
+
+
+
+

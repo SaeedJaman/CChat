@@ -1,0 +1,15 @@
+﻿{
+  "publicationEntry": "প্রকাশনা নিবন্ধন",
+  "publicationApprove": "প্রকাশনা অনুমোদন",
+  "employeeId": "কর্মচারীর আইডি",
+  "employeeName": "কর্মচারীর নাম",
+  "designation": "পদবী",
+  "publicationType": "প্রকাশনার ধরণ",
+  "date": "তারিখ",
+  "place": "প্রকাশনার স্থান",
+  "nameOfPublication": "প্রকাশনার নাম/শিরোনাম",
+  "action": "প্রক্রিয়া",
+  "status": "অবস্থা"
+}
+
+

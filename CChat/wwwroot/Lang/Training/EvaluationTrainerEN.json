@@ -1,0 +1,15 @@
+﻿{
+  "title": "Evaluation",
+  "trainingName": "Training Name",
+  "trainerName": "Trainer Name",
+  "skillRateOfTrainer": "The Rate of skill of trainer",
+  "performance": "The Rate of Performance of trainer",
+  "presenceOfMind": "The Rate of presence of mind of trainer",
+  "presentationRate": "The Rate of presentation of trainer",
+  "resourceName": "Resource Name",
+  "factorId": "factor Name",
+  "obtainedValue": "Obtained Value",
+  "commnet": "Comments",
+  "evaluationDate": "Evaluation Date",
+  "action": "action"
+}

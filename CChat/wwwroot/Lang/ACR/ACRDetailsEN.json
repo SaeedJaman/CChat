@@ -1,0 +1,15 @@
+{
+  "title": "ACR History",
+  "title2": "List of ACR History",
+  "startDate": "Start Date",
+  "endDate": "End Date",
+  "supervisorName": "Initiating officer Name",
+  "supervisorDesignation": "Initiating officer Designation",
+  "signatoryName": "Counter Signatory Name",
+  "signatoryDesignation": "Counter Signatory Designation",
+  "advanceComment": "Adverse Comment",
+  "remarks": "Remarks",
+  "action": "Action",
+  "year": "Year",
+  "score": "Score"
+}

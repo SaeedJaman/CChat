@@ -1,0 +1,15 @@
+﻿{
+  "title": "এসিআর বিবরণী",
+  "title2": "এসিআর বিবরণী তালিকা",
+  "startDate": "শুরুর তারিখ",
+  "endDate": "সমাপ্তির তারিখ",
+  "supervisorName": "অনুবেদনকারীর নাম",
+  "supervisorDesignation": "অনুবেদনকারীর পদবি",
+  "signatoryName": "প্রতিস্বাক্ষরকারীর নাম",
+  "signatoryDesignation": "প্রতিস্বাক্ষরকারীর পদবি",
+  "advanceComment": "অ্যাডভান্স কমেন্ট",
+  "remarks": "মন্তব্য",
+  "action": "প্রক্রিয়া",
+  "year": "বছর",
+  "score": "স্কোর"
+}

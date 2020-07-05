@@ -1,0 +1,54 @@
+{
+  "title": "Training Implementation (Local)",
+  "titleF": "Training Implementation (Foreigne)",
+  "titleDet": "Training Details",
+  "titleEv": "Training List For Evaluation (Local)",
+  "titleEvF": "Training List For Evaluation (Foreigne)",
+  "title1": "Participants Particular",
+  "title2": "Resource Person",
+  "planeName": "Plane Name",
+  "planeStartDate": "Tentative Starting Date",
+  "planeEndDate": "Tentative Ending Date",
+  "trainingName": "Training Name",
+  "duration": "Duration",
+  "participant": "Planned of Participant",
+  "trainingType": "Type",
+  "noOfTraining": "No of Training",
+  "expectedStartDate": "Tentative Starting Date",
+  "expectedEndDate": "Tentative Ending Date",
+  "organization": "Work Place/Organization",
+  "nid": "NID",
+  "address": "Address",
+  "action": "action",
+
+  "startDateActual": "Actual Starting Date",
+  "endDateActual": "Actual Ending Date",
+  "noOfParticipantsActual": "Actual No of Participant",
+  "mobile": "Mobile Number",
+  "email": "Email",
+
+  "courseObjective": "Course Objective",
+  "amount": "Amount (BDT)",
+
+  "employeeId": "Employee's Id (If any)",
+  "employeeName": "Name",
+  "designation": "Designation/Occupation",
+  "resourcePersonId": "Resource Person",
+  "Performance": "Performance",
+
+  "course": "Course Title",
+  "year": "Year",
+  "employeeType": "Employee Type",
+  "budget": "Budget",
+
+  "place": "Training Performence",
+  "completionStatus": "Completion Status",
+  "remark": "Remark",
+  "Specialization": "Specialization",
+
+  "participantList": "List of Participant",
+  "actualExpence": "Actual Expenditure (BDT)",
+
+  "country": "Country",
+  "location": "Location"
+}

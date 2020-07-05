@@ -1,0 +1,11 @@
+{
+  "title": "Book List",
+  "bookName": "Book's Name",
+  "bookCategory": "Category Name",
+  "writerName": "Writer Name",
+  "publisher": "Publisher Name",
+  "publishDate": "Published Date",
+  "quantity": "Quantity",
+  "status": "Status",
+  "action": "Action"
+}

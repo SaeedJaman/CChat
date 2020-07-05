@@ -1,0 +1,32 @@
+﻿{
+
+  "reqNo": "চাহিদা পত্র নং",
+  "reqDate": "অনুরোধ তারিখ",
+  "targetDate": "ডেলিভারি টার্গেট তারিখ",
+  "justification": "আত্মপক্ষ সমর্থন",
+  "subject": "বিষয়",
+  "reqDept": "বিভাগ",
+  "reqType": "অনুরোধ স্থিতি",
+  "supplier": "সরবরাহকারীর নাম",
+  "isPostPR": "পোস্ট অনুরোধ?",
+  "title": "অনুরোধ তথ্য",
+  "listTitle": "অনুরোধ তালিকা",
+  "action": "প্রক্রিয়া",
+  "itemDetails": "আইটেমের বিবরণ",
+  "itemId": "আইটেমের নাম",
+  "itemSpecificationId": "সবিস্তার বিবরণী",
+  "assignTo": "জব গ্রহীতা",
+  "lastPrice": "শেষ দাম",
+  "reqQty": "পরিমাণ",
+  "reqRate": "আনুমানিক দাম",
+  "totalAmount": "সর্বমোট পরিমাণ",
+  "itemDetailsList": "অনুরোধ আইটেম তালিকা",
+  "empName": "কর্মকর্তার নাম",
+  "reqStatus": "অনুরোধ স্থিতি",
+  "appStatus": "অনুমোদন স্থিতি",
+  "attachment": "সংযুক্তি",
+  "filename": "ফাইলের নাম",
+  "file": "ফাইল",
+  "unit": "একক"
+
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Freedom Fighter Information",
+  "ffNo": "F.F No.",
+  "owner": "Owner",
+  "sectorNo": "Sector No",
+  "remark": "Remarks",
+  "relationShip": "RelationShip",
+  "list": "Freedom Fighter List",
+  "action": "Action"
+}

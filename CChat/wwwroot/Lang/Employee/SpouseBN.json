@@ -1,0 +1,19 @@
+﻿{
+  "spouseName": "স্বামী/স্ত্রীর নাম (ইংরেজী)",
+  "spouseNameBN": "স্বামী/স্ত্রীর নাম (বাংলা)",
+  "dateOfBirth": "জন্ম তারিখ",
+  "occupation": "পেশা",
+  "gender": "লিঙ্গ",
+  "designation": "পদবি",
+  "organization": "সংস্থা",
+  "emailAddress": "ইমেইল",
+  "bin": "বি আই এন",
+  "nid": "এন আই ডি",
+  "bloodGroup": "রক্তের গ্র্রুপ",
+  "contact": "মোবাইল নম্বর",
+  "higherEducation": "সর্বোচ্চ শিক্ষা",
+  "action": "প্রক্রিয়া",
+  "title": "স্বামী/স্ত্রীর তথ্য",
+  "title2": "স্বামী/স্ত্রীর তথ্য তালিকা",
+  "homeDistrict": "নিজ জেলা"
+}

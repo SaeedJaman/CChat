@@ -1,0 +1,10 @@
+{
+  "title": "Leave Approval",
+  "title2": "List of Leave Approval",
+  "employeeName": "Employee Name",
+  "leaveFrom": "Leave From",
+  "leaveTo": "Leave To",
+  "totalDays": "Total Days",
+  "leavePurpose": "Leave Purpose",
+  "action": "Action"
+}

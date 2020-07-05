@@ -1,0 +1,10 @@
+﻿{
+  "title": "Employee Information",
+  "name": "Name",
+  "mobileNoOffice": "Office Mobile No. ",
+  "dateOfBirth": "Date of Birth",
+  "fatherName": "Father's Name",
+  "motherName": "Mother's Name",
+  "advanceComment": "Advance Comment",
+  "action": "Action"
+}

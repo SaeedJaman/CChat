@@ -1,0 +1,22 @@
+{
+  "title": "Launch Training",
+  "trainingPlan": "Training Plan Details Name",
+  "traningDetailsName": "Training Details Name",
+  "startDate": "Start Date",
+  "endDate": "End Date",
+  "startTime": "Start Time",
+  "endTime": "End Time",
+  "trainingLocation": "Training Location",
+  "trainingScope": "Training Scope",
+  "trainingName": "Training Name",
+  "trainingCatagory": "Training Catagory",
+  "trainingOrganization": "Training Organization",
+  "scheduleId": "Schedule ID",
+  "trainerId": "Trainer ID",
+  "content": "Content",
+  "details": "Details",
+  "trainingLaunchName": "Name",
+  "numberOfFreeSeat": "Number Of Free Seat",
+  "maxParticipate": "Max Participate",
+  "action": "Action"
+}

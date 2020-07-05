@@ -1,0 +1,13 @@
+{
+  "title": "Belongings Information",
+  "belongingsItem": "Belongings Item",
+  "assetNo": "Asset No",
+  "issueDate": "Issue Date",
+  "remarks": "Remarks",
+  "returnDate": "Return Date",
+
+  "list": "List of Belongings Information",
+  "itemName": "Item Name",
+  "itemCode": "Item Code",
+  "action": "Action"
+}

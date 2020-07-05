@@ -1,0 +1,28 @@
+{
+  "assetDepreciation": "Asset Depreciation",
+  "periodName": "Period Name",
+  "categoryName": "Category Name",
+  "sLNo": "SL. No",
+  "assetNo": "Asset No",
+  "depriciationRate": "Depriciation Rate",
+  "depThisPeriod": "Dep This Period",
+  "total": "Total",
+  "assetYear": "Asset Year",
+  "assetYearName": "Asset Year Name",
+  "assetYearList": "Asset Year List",
+
+  "assetDepriciationPeriod": "Asset Depriciation Period",
+  "year": "Year",
+  "startDate": "Start Date",
+  "workingDays": "Working Days",
+  "month": "Month",
+  "isLock": "IsLock?",
+  "endDate": "End Date",
+  "depriciationPeriodList": "Depriciation Period List",
+
+  "itemCategory": "Item Category",
+  "monthNo": "Month No",
+  "depriciationRateList": "Depriciation Rate List",
+
+  "action": "Action"
+}

@@ -1,0 +1,8 @@
+﻿{
+  "title": "Salary Payslip Emailing",
+  "mailBody": "Mail Body",
+  "mailSubject": "Mail Subject",
+  "payDate": "Date of Pay",
+  "period": "Salary Period",
+  "employeeName": "Employee Name"
+}

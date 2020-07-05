@@ -1,0 +1,10 @@
+﻿{
+  "title": "Training Allocation",
+  "designation": "Designation",
+  "trainingName": "Training Name",
+  "postingDetails": "Posting Details ID",
+  "prirityLevel": "Pririty Level",
+  "resourceName": "Resource Name",
+  "remarks": "Remarks",
+  "action": "Action"
+}

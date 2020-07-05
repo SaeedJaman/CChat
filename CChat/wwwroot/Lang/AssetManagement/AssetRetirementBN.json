@@ -1,0 +1,22 @@
+﻿{
+  "assetNo": "সম্পদ নং",
+  "assetValue": "সম্পত্তির মূল্য",
+  "backToRetirementList": "মেয়াদ উত্তীর্ণ তালিকায় ফিরে যান",
+  "assetNonRetirementList": "সক্রিয় সম্পদ তালিকা",
+  "purchaseNo": "ক্রয় নং",
+  "receiveDate": "গ্রহণের তারিখ",
+  "purchaseDate": "ক্রয় তারিখ",
+  "supplierName": "সরবরাহকারী নাম",
+  "assetRetirementInfo": "মেয়াদ উত্তীর্ণ সম্পদের তথ্য",
+  "assetName": "সম্পত্তির নাম",
+  "retirementDate": "মেয়াদ উত্তীর্ণের তারিখ",
+  "retirementType": "মেয়াদ উত্তীর্ণের ধরণ",
+  "scrapValue": "স্ক্র্যাপ মান",
+  "yearAccumulatedDepr": "বছর একত্রিত Depr",
+  "writtenDownValue": "নিচে মান লিখুন ",
+  "retirementReason": "মেয়াদ উত্তীর্ণের গ্রহণের কারণ",
+  "assetRetirementList": "মেয়াদ উত্তীর্ণ সম্পদের তালিকা",
+  "causeofRetirement": "মেয়াদ উত্তীর্ণের কারণ",
+  "addAssetRetirement": "মেয়াদ উত্তীর্ণ সম্পদ যুক্ত করুন",
+  "action": "কর্ম"
+}

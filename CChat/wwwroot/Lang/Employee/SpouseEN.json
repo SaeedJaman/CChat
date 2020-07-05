@@ -1,0 +1,20 @@
+﻿{
+  "spouseName": "Name",
+  "spouseNameBN": "Name (Bangla)",
+  "emailAddress": "Email",
+  "dateOfBirth": "Date of Birth",
+  "occupation": "Occupation",
+  "gender": "Gender",
+  "designation": "Designation",
+  "organization": "Organization",
+  "bin": "BIN",
+  "nid": "NID",
+  "bloodGroup": "Blood Group",
+  "contact": "Mobile Number",
+  "higherEducation": "Higher Education",
+  "action": "Action",
+  "title": "Spouse Information",
+  "title2": "List of Spouse Information",
+  "homeDistrict": "Home District"
+
+}

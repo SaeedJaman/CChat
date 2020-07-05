@@ -1,0 +1,28 @@
+﻿{
+  "assetDepreciation": "সম্পদের অবচয়",
+  "periodName": "কালের নাম",
+  "categoryName": "বিভাগের নাম",
+  "sLNo": "ক্রমিক সংখ্যা",
+  "assetNo": "সম্পদ নং",
+  "depriciationRate": "অবচয় হার",
+  "depThisPeriod": "এই সময়ের Dep.",
+  "total": "মোট",
+  "assetYear": "সম্পদ বছর",
+  "assetYearName": "সম্পত্তির বছরের নাম",
+  "assetYearList": "সম্পত্তির বছরের তালিকা",
+
+  "assetDepriciationPeriod": "সম্পত্তির অবচয় সময়কাল",
+  "year": "বছর",
+  "startDate": "শুরুর তারিখ",
+  "workingDays": "কর্মদিবস",
+  "month": "মাস",
+  "isLock": "তালাবদ্ধ?",
+  "endDate": "শেষ তারিখ",
+  "depriciationPeriodList": "অবচয় সময়কাল তালিকা",
+
+  "itemCategory": "পদ বিভাগ",
+  "monthNo": "মাস নং",
+  "depriciationRateList": "অবচয় হারের তালিকা",
+
+  "action": "কর্ম"
+}

@@ -1,0 +1,13 @@
+﻿{
+  "title": "Trainer Information",
+  "workPlace": "Work place",
+  "action": "Action",
+  "contactNumber": "Contact Number",
+  "Specialization": "Specialization",
+  "employeeId": "Employee Id",
+  "name": "Name",
+  "designation": "Designation",
+  "Performance": "Performance",
+  "Remarks": "Remarks",
+  "email": "Email"
+}

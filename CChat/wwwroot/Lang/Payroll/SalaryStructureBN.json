@@ -1,0 +1,18 @@
+﻿{
+  "title": "এমপ্লয়ির বেতন কাঠামো",
+  "employeeName": "এমপ্লয়ির নাম",
+  "designation": "পদবি",
+  "department": "বিভাগ",
+  "salaryGradeId": "বেতন গ্রেড",
+  "salarySlab": "বেতন স্ল্যাব",
+  "grossAmount": "গ্রস পে",
+  "edit": "বেতন কাঠামো আপডেট",
+  "addition": "সংযোজন",
+  "deduction": "বিয়োজন",
+  "headName": "খাতের নাম",
+  "amount": "পরিমাণ",
+  "status": "স্ট্যাটাস",
+  "total": "মোট",
+  "list": "এমপ্লয়ির বেতন কাঠামো তালিকা",
+  "action": "প্রক্রিয়া"
+}

@@ -1,0 +1,9 @@
+﻿{
+  "title": "শতকরা বেতন গ্রেড",
+  "salaryGradeId": "বেতন গ্রেড",
+  "salaryHeadId": "বেতন খাত",
+  "salaryCalulationTypeId": "বেতন হিসাবের ধরণ",
+  "percentAmount": "শতকরা পরিমাণ",
+  "list": "শতকরা বেতন গ্রেড তালিকা",
+  "action": "প্রক্রিয়া"
+}

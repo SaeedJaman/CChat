@@ -1,0 +1,10 @@
+﻿{
+  "title": "Exam Result",
+  "resourseId": "Resource",
+  "examId": "Exam",
+  "obtainedMarks": "Obtained Marks",
+  "Comment": "Comment",
+  "action": "Action"
+
+
+}

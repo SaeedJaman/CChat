@@ -1,0 +1,14 @@
+﻿{
+  "title": "বেতন খাতের তথ্য",
+  "salaryHeadName": "বেতন খাত",
+  "salaryHeadCode": "কোড",
+  "salaryHeadType": "খাতের ধরণ",
+  "isArrear": "এরিয়ার কি প্রযোজ্য?",
+  "isBonus": "বোনাস কি প্রযোজ্য?",
+  "sortOrder": "ক্রম",
+  "isIncomeTax": "আয়কর কি প্রযোজ্য?",
+  "isInvestments": "বিনিয়োগ কি প্রযোজ্য?",
+  "isAdvance": "অগ্রিম কি প্রযোজ্য?",
+  "list": "বেতন খাতের তালিকা",
+  "action": "প্রক্রিয়া"
+}

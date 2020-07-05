@@ -1,0 +1,20 @@
+﻿{
+  "title": "LFA Info",
+  "sl": "#SL",
+  "empcode": "Emp Code",
+  "workingDays": "No of Days",
+  "designation": "Designation",
+  "department": "Department",
+  "salaryPeriodId": "Salary Period",
+  "joiningDate": "Joining Date",
+  "confirmDate": "Confirmation Date",
+  "employeeName": "Employee Name",
+  "lastYearBasic": "Last Year Basic",
+  "lfaAmount": "LFA Amount",
+  "lastLfaYearNo": "Last LFA Year No",
+  "currentLfaYearNo": "Current LFA Year No",
+  "lfaStartDate": "From Date",
+  "lfaEndDate": "To Date",
+  "list": "List of LFA",
+  "action": "Action"
+}

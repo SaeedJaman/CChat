@@ -1,0 +1,13 @@
+{
+  "title": "Training History",
+  "title2": "List of Training History",
+  "trainingType": "Training Type",
+  "trFromDate": "From Date",
+  "trToDate": "To Date",
+  "country": "Country",
+  "trainingTitle": "Training Title",
+  "institute": "Training Institution",
+  "sponsoringAgency": "Sponsoring Agency",
+  "action": "Action",
+  "remarks": "Remarks"
+}

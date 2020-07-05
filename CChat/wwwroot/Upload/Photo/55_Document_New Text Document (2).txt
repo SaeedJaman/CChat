@@ -1,0 +1,21 @@
+dotnet ef migrations add MyFirstMigration
+dotnet ef database update
+dotnet clean
+dotnet publish
+-----------------------------
+---salary 29/8/2019
+--spGetBranchTemonusRecord
+--sp_Get_CurrentMonthYearPeriod
+--spInsertAllXmlData_Temonus
+
+
+------------------------------
+--------------AMBITION
+
+--sp_TargetAchievement_Dashboard_GM
+
+
+
+
+
+

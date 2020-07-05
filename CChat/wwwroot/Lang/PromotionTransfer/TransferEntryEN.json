@@ -1,0 +1,20 @@
+{
+  "title": "Transfer Entry",
+  "titleDet": "Transfer Details",
+  "sl": "SL",
+  "employeeId": "Employee's Id",
+  "employeeName": "Employee's Name",
+  "designation": "Designation",
+  "currentDesignation": "Current Designation",
+  "currentWorkingPlace": "Current Working Place",
+  "grade": "Grade",
+  "newDesignation": "New Designation",
+  "transferWorkingPlace": "Transfer Working Place",
+  "newGrade": "New Grade",
+  "officeOrderDate": "Office Order Date",
+  "effectDate": "Effect Date",
+  "joiningDate": "Joining Date",
+  "remarks": "Remarks",
+  "status": "Status",
+  "action": "Action"
+}

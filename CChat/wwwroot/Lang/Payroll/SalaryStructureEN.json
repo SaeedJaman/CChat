@@ -1,0 +1,18 @@
+﻿{
+  "title": "Employees Salary Structure",
+  "employeeName": "Emp Name",
+  "designation": "Designation",
+  "department": "Department",
+  "salaryGradeId": "Salary Grade",
+  "salarySlab": "Salary Slab",
+  "grossAmount": "Gross Amount",
+  "edit": "Edit Salary Structure",
+  "addition": "Addition",
+  "deduction": "Deduction",
+  "headName": "Head Name",
+  "amount": "Amount",
+  "status": "Status",
+  "total": "Total",
+  "list": "Employees Salary Structure List",
+  "action": "Action"
+}

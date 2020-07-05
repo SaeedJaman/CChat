@@ -1,0 +1,9 @@
+{
+  "title": "Membership Information",
+  "nameOrganization": "Name of Organization",
+  "membershipType": "Membership Type",
+  "remarks": "Remarks",
+  "membershipNo": "Membership No",
+  "list": "List of Membership",
+  "action": "Action"
+}

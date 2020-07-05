@@ -1,0 +1,21 @@
+﻿{
+  "title": "Final Settlement",
+  "empCode": "Employee Code",
+  "empName": "Employee Name",
+  "lastWorkingDay": "Last Working Day",
+  "designation": "Designation",
+  "resignDate": "Resign Date",
+  "resignList": "Resign List",
+  "action": "Action",
+
+  "basicInfoTitle": "Employee Basic Information",
+  "jobTitle": "Job Title",
+  "employmentStatus": "Employment Status",
+  "contactNo": "Contact No",
+  "joiningDate": "Joining Date",
+  "confirmationDate": "Confirmation Date",
+  "location": "Location",
+  "division": "Division",
+  "department": "Department",
+  "noticePeriod": "Notice Period"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Borrow List of book",
+  "bookName": "Book Name",
+  "borrowerName": "Borrower Name",
+  "borrowDate": "Borrow Date",
+  "returnDate": "Return Date",
+  "designation": "Designation",
+  "noOfCopy": "Number of Copy",
+  "action": "Action",
+  "iD": "ID"
+}

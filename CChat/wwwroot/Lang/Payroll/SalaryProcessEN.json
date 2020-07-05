@@ -1,0 +1,9 @@
+﻿{
+  "title": "Employee Salary Process",
+  "salaryPeriodId": "Salary Period",
+  "employeeName": "Employee Name",
+  "totalEmployee": "Total Employee",
+  "process": "Process",
+  "taxProcess": "Send for Tax Process",
+  "action": "Action"
+}

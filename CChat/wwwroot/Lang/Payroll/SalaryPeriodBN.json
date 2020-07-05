@@ -1,0 +1,14 @@
+﻿{
+  "title": "বেতন সময়কালের তথ্য",
+  "periodName": "সময়কালের নাম",
+  "salaryTypeId": "বেতনের ধরণ",
+  "bonusTypeId": "বোনাসের ধরণ",
+  "daysWorking": "কর্মদিবস",
+  "mailSub": "মেইলের বিষয়বস্তু",
+  "mailText": "মেইলের পাঠ্য",
+  "salaryYearId": "বেতনের বছর",
+  "monthName": "মাস",
+  "taxYearId": "অর্থ বছর",
+  "list": "বেতন সময়কালের তালিকা",
+  "action": "প্রক্রিয়া"
+}

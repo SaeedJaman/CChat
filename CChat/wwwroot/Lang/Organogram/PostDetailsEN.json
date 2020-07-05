@@ -1,0 +1,14 @@
+{
+  "title": "Post Details",
+  "id": "ID",
+  "reportingBossId": "Controlling Officer ID",
+  "post": "Post",
+  "organization": "Organization Name",
+  "reportingBoss": "Controlling Officer",
+  "employee": "Employee",
+  "postingType": "Posting Type",
+  "employmentType": "Employment Type",
+  "assaignDate": "Assign Date",
+  "remarks": "Remarks",
+  "action": "Action"
+}

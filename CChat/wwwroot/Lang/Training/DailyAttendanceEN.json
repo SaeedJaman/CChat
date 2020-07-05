@@ -1,0 +1,12 @@
+{
+  "title": "Daily Attendance",
+  "trainingName": "Training Name",
+  "Date": "Date",
+  "planName": "Plan Name",
+  "employeeName": "Employee Name",
+  "absent": "Absent",
+  "present": "Present",
+  "status": "Status",
+  "resourceName": "Resource Name",
+  "action": "action"
+}

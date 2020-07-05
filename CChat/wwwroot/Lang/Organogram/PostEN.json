@@ -1,0 +1,10 @@
+{
+  "title": "Post Information",
+  "titleCls": "Organogram",
+  "organization": "Organization",
+  "designation": "Designation",
+  "altDesignation": "Alter Designation",
+  "numberOfPost": "Number of Post",
+  "action": "Action",
+  "IsHead": "Is Head"
+}

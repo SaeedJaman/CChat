@@ -1,0 +1,9 @@
+﻿{
+  "title": "যানবাহনের তালিকা",
+  "categoryName": "ক্যাটাগরী নাম",
+  "vehicleId": "যানবাহন আইডি",
+  "engineNo": "ইন্জিন নম্বর",
+  "workStation": "অফিসের নাম",
+  "registrationNo": "রেজিস্ট্রেশন নং",
+  "action": "প্রক্রিয়া"
+}

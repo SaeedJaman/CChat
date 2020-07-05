@@ -1,0 +1,18 @@
+﻿{
+  "title": "Arrear Calculation",
+  "sl": "#SL",
+  "empCode": "Emp Code",
+  "employeeName": "Emp Name",
+  "designation": "Designation",
+  "department": "Department",
+  "salaryPeriodId": "Salary Period Month",
+  "salaryHeadId": "Salary Head",
+  "txtArrear": "Arrear Amount",
+  "txtBonus": "Bonus Arrear",
+  "arrearAmount": "Total",
+  "calculate": "Calculate",
+  "amount": "Amount",
+  "ratio": "Ratio",
+  "list": "List of Arrear",
+  "action": "Action"
+}

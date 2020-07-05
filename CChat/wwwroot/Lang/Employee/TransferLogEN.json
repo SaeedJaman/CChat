@@ -1,0 +1,14 @@
+{
+  "title": "Service History",
+  "title2": "List of Service History",
+  "sl": "SL",
+  "designation": "Designation",
+  "department": "Wing",
+  "workStation": "Work Station",
+  "grade": "Grade",
+  "newGrade": "New Grade",
+  "toDate": "To date",
+  "fromDate": "From date",
+  "status": "Status",
+  "action": "Action"
+}

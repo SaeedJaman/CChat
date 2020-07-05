@@ -1,0 +1,10 @@
+﻿{
+  "title": "Evaluation Factor",
+  "evaluationName": "Evaluation Name",
+  "evaluationDetails": "Evaluation Details",
+  "maxValue": "Max Value",
+  "minValue": "Min Value",
+  "status": "Status",
+  "unit": "Unit",
+  "action": "Action"
+}

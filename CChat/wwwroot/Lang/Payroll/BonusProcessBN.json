@@ -1,0 +1,11 @@
+﻿{
+  "title": "বোনাস প্রসেস",
+  "salaryHeadId": "বোনাসের খাত",
+  "salaryPeriodId": "বেতনের সময়কাল",
+  "bonusFor": "বোনাসের ধরণ",
+  "lastDayofPeriod": "সময়কালের শেষ দিন",
+  "tottalEmployee": "মোট এমপ্লয়ি",
+  "employeeName": "এমপ্লয়ির নাম",
+  "process": "প্রসেস",
+  "action": "প্রক্রিয়া"
+}

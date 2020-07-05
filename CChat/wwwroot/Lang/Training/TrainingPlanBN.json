@@ -1,0 +1,17 @@
+﻿{
+  "title": "প্রশিক্ষণের পরিকল্পনা",
+  "planName": "পরিকল্পনার নাম",
+  "planStartDate": "পরিকল্পনা শুরুর তারিখ",
+  "planEndDate": "পরিকল্পনা শেষের তারিখ",
+  "trainingName": "প্রশিক্ষণের নাম",
+  "duration": "সময়কাল",
+  "noOfParticipants": "অংশগ্রহণকারীর সংখ্যা",
+  "noOfTrainers": "প্রশিক্ষকের সংখ্যা",
+  "expectedStartDate": "সম্ভাব্য শুরুর তারিখ",
+  "expectedEndDate": "সম্ভাব্য শেষের তারিখ",
+  "organization": "প্রশিক্ষণ প্রতিষ্ঠান",
+  "details": "বিস্তারিত",
+  "planDetailsName": "পরিকল্পনা বিবরণী",
+  "trainingType": "প্রশিক্ষণের ধরণ",
+  "action": "প্রক্রিয়া"
+}

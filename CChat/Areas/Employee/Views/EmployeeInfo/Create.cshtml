@@ -1,0 +1,723 @@
+﻿@model EmployeeInfoViewModel
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Style{
+    <style>
+        .redStar {
+            color: red;
+        }
+    </style>
+}
+
+<div class="card" style="width: 100%;">
+    <div class="card-body">
+        <div>
+            <a class="btn btn-success btn-sm" id="backBtn" style="float:right;">&nbsp; &nbsp; Back &nbsp; &nbsp;</a>
+            <h5 class="card-title" style="color: black; font-weight:bold">Employee Information</h5>
+        </div>
+        <hr>
+        <div class="container">
+            <form id="infoCreateForm" data-parsley-validate="parsley">
+
+                <div asp-validation-summary="All" class="text-danger"></div>
+
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="form-group row">
+                            <label for="employeeID" class="col-sm-4 col-form-label">Employee ID <span class="redStar">*</span></label>
+                            <div class="col-sm-8">
+                                <input type="text" data-parsley-required="true" data-parsley-trigger="keyup" class="form-control" id="employeeCode" value="" name="employeeCode">
+                                <input type="hidden" id="employeeID" name="employeeID" value="0">
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="employeeType" class="col-sm-4 col-form-label">Eemployee Type</label>
+                            <div class="col-sm-8">
+                                <select class="form-control" id="employeeType" name="employeeType">
+                                    <option value="">Select</option>
+                                    <option value="1">Permanent</option>
+                                    <option value="2">Absorbed</option>
+                                    @*@foreach (var data in Model.employeeTypes)
+                                    {
+                                        <option value="@data.Id">@data.empType</option>
+                                    }*@
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                        @*<div class="form-group row">
+                                <label for="sbu" class="col-sm-4 col-form-label">SBU <span class="redStar">*</span></label>
+                                <div class="col-sm-8">
+                                    <select class="form-control" id="sbu" name="sbu" data-parsley-required="true">
+                                        <option value="">Select</option>
+                                        @foreach (var data in Model.specialBranchUnits)
+                                        {
+                                            <option value="@data.Id">@data.branchUnitName</option>
+                                        }
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <label for="pns" class="col-sm-4 col-form-label">PNS </label>
+                                <div class="col-sm-8">
+                                    <select class="form-control" id="pns" name="pns">
+                                        <option value="">Select</option>
+                                    </select>
+                                </div>
+                            </div>*@
+
+                        <div class="form-group row">
+                            <label for="gpfNomineeName" class="col-sm-4 col-form-label">GPF NomineeName</label>
+                            <div class="col-sm-8">
+                                <input type="text" class="form-control" id="gpfNomineeName" value="" name="gpfNomineeName">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="gpfAcNo" class="col-sm-4 col-form-label">GPF AcNo</label>
+                            <div class="col-sm-8">
+                                <input type="text" class="form-control" id="gpfAcNo" value="" name="gpfAcNo">
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="form-group row">
+                    <label for="nameEnglish" class="col-sm-2 col-form-label"></label>
+                    <label for="nameEnglish" class="col-sm-1 col-form-label">Name<span class="redStar">*</span></label>
+                    <div class="col-sm-9">
+                        <input type="text" data-parsley-required="true" data-parsley-trigger="keyup" class="form-control" id="nameEnglish" value="" name="nameEnglish">
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="nameBangla" class="col-sm-2 col-form-label"></label>
+                    <label for="nameBangla" class="col-sm-1 col-form-label">Bangla</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" id="nameBangla" value="" name="nameBangla">
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="motherNameEnglish" class="col-sm-2 col-form-label"></label>
+                    <label for="motherNameEnglish" class="col-sm-1 col-form-label">Mother Name</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" id="motherNameEnglish" value="" name="motherNameEnglish">
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="motherNameBangla" class="col-sm-2 col-form-label"></label>
+                    <label for="motherNameBangla" class="col-sm-1 col-form-label">Bangla </label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" id="motherNameBangla" value="" name="motherNameBangla">
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="fatherNameEnglish" class="col-sm-2 col-form-label"></label>
+                    <label for="fatherNameEnglish" class="col-sm-1 col-form-label">Father Name</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" id="fatherNameEnglish" value="" name="fatherNameEnglish">
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="fatherNameBangla" class="col-sm-2 col-form-label"></label>
+                    <label for="fatherNameBangla" class="col-sm-1 col-form-label">Bangla</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" id="fatherNameBangla" value="" name="fatherNameBangla">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="form-group row">
+                            <label for="nationality" class="col-sm-4 col-form-label">Nationality <span class="redStar">*</span></label>
+                            <div class="col-sm-8">
+                                <select class="form-control" id="nationality" name="nationality" data-parsley-required="true">
+                                    <option value="Bangladeshi">Bangladeshi</option>
+                                    <option value="Foreigner">Foreigner</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group row">
+                            <label for="nationalID" class="col-sm-4 col-form-label">National ID</label>
+                            <div class="col-sm-8">
+                                <input type="text" data-parsley-length="[10, 30]" data-parsley-trigger="keyup" class="form-control" id="nationalID" value="" name="nationalID">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="form-group row">
+                            <label for="dateOfBirth" class="col-sm-4 col-form-label">Date Of Birth</label>
+                            <div class="col-sm-8">
+                                <input type="text" class="form-control datePicker" id="dateOfBirth" value="" name="dateOfBirth" autocomplete="off">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group row">
+                            <label for="dateOfLPR" class="col-sm-4 col-form-label">Date Of LPR</label>
+                            <div class="col-sm-8">
+                                <input type="text" class="form-control datePicker" id="dateOfLPR" value="" name="dateOfLPR" autocomplete="off" readonly>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="form-group row">
+                            <label for="birthPlace" class="col-sm-4 col-form-label">Birth Place</label>
+                            <div class="col-sm-8">
+                                <input type="text" class="form-control" id="birthPlace" value="" name="birthPlace">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group row">
+                            <label for="homeDistrict" class="col-sm-4 col-form-label">Home District</label>
+                            <div class="col-sm-8">
+                                <select class="form-control" id="homeDistrict" value="" name="homeDistrict">
+                                    <option value="">Select</option>
+                                    <option value="1">Dhaka</option>
+                                    <option value="2">Chattogram</option>
+                                    @*@foreach (var data in Model.districts)
+                                    {
+                                        <option value="@data.districtName">@data.districtName</option>
+                                    }*@
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group row" style="display:none;">
+                            <label for="birthIdentificationNo" class="col-sm-4 col-form-label">Birth Identification No</label>
+                            <div class="col-sm-8">
+                                <input type="text" data-parsley-required="false" data-parsley-length="[10, 30]" data-parsley-trigger="keyup" class="form-control" id="birthIdentificationNo" value="" name="birthIdentificationNo">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="form-group row">
+                            <label for="religion" class="col-sm-4 col-form-label">Religion</label>
+                            <div class="col-sm-8">
+                                <select class="form-control" id="religion" name="religion">
+                                    <option value="">Select</option>
+                                    <option value="Islam">Islam</option>
+                                    <option value="Hindu">Hindu</option>
+                                    <option value="Christian">Christian</option>
+                                    <option value="Buddist">Buddist</option>
+                                    @*@foreach (var data in Model.religions)
+                                    {
+                                        <option value="@data.Id">@data.name</option>
+                                    }*@
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group row">
+                            <label for="gender" class="col-sm-4 col-form-label">Gender</label>
+                            <div class="col-sm-8">
+                                <select class="form-control" id="gender" name="gender">
+                                    <option value="">Select</option>
+                                    <option value="Male">Male</option>
+                                    <option value="Female">Female</option>
+                                    <option value="Other">Other</option>
+
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="form-group row">
+                            <label for="bloodGroup" class="col-sm-4 col-form-label">BloodGroup</label>
+                            <div class="col-sm-8">
+                                <select class="form-control" id="bloodGroup" name="bloodGroup">
+                                    <option value="">Select</option>
+                                    <option value="O-">O-</option>
+                                    <option value="O+">O+</option>
+                                    <option value="A-">A-</option>
+                                    <option value="A+">A+</option>
+                                    <option value="B-">B-</option>
+                                    <option value="B+">B+</option>
+                                    <option value="AB-">AB-</option>
+                                    <option value="AB+">AB+</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group row">
+                            <label for="maritalStatus" class="col-sm-4 col-form-label">MaritalStatus</label>
+                            <div class="col-sm-8">
+                                <select class="form-control" id="maritalStatus" name="maritalStatus">
+                                    <option value="">Select</option>
+                                    <option value="Married">Married</option>
+                                    <option value="Unmarried">Unmarried</option>
+                                    <option value="Widow">Widow</option>
+                                    <option value="Separated">Separated</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="form-group row">
+                            <label for="tin" class="col-sm-4 col-form-label">TIN</label>
+                            <div class="col-sm-8">
+                                <input type="text" data-parsley-length="[4, 25]" data-parsley-trigger="keyup" class="form-control" id="tin" value="" name="tin">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="form-group row" style="display:none;">
+                            <label for="seniorityNumber" class="col-sm-4 col-form-label">Seniority Number</label>
+                            <div class="col-sm-8">
+                                <input type="text" class="form-control" id="seniorityNumber" value="" name="seniorityNumber">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="disability" class="col-sm-4 col-form-label">Disability</label>
+                            <div class="col-sm-8">
+                                <select class="form-control" id="disability" name="disability" data-parsley-required="true">
+                                    <option value="No">No</option>
+                                    <option value="Yes">Yes</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="form-group row" style="display:none;">
+                            <label for="batch" class="col-sm-4 col-form-label">Batch</label>
+                            <div class="col-sm-8">
+                                <input type="text" class="form-control" id="batch" value="" name="batch">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="form-group row">
+                            <label for="freedomFighter" class="col-sm-4 col-form-label">Freedom Fighter</label>
+                            <div class="col-sm-8">
+                                <select class="form-control" id="freedomFighter" name="freedomFighter">
+                                    <option value="No">No</option>
+                                    <option value="Yes">Yes</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group row">
+                            <label for="freedomFighterNo" class="col-sm-4 col-form-label">FF No</label>
+                            <div class="col-sm-8">
+                                <input type="text" data-parsley-length="[2, 30]" data-parsley-trigger="keyup" class="form-control" id="freedomFighterNo" value="" name="freedomFighterNo" readonly>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row" style="display:none;">
+                    <div class="col-sm-6">
+                        <div class="form-group row">
+                            <label for="pabx" class="col-sm-4 col-form-label">PABX</label>
+                            <div class="col-sm-8">
+                                <input type="text" class="form-control" id="pabx" value="" name="pabx">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="form-group row">
+                            <label for="telephoneOffice" class="col-sm-4 col-form-label">Telephone Office</label>
+                            <div class="col-sm-8">
+                                <input type="text" data-parsley-length="[6, 20]" data-parsley-trigger="keyup" class="form-control" id="telephoneOffice" value="" name="telephoneOffice">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group row">
+                            <label for="telephoneResidence" class="col-sm-4 col-form-label">Telephone (Res)</label>
+                            <div class="col-sm-8">
+                                <input type="text" data-parsley-length="[6, 20]" data-parsley-trigger="keyup" class="form-control" id="telephoneResidence" value="" name="telephoneResidence">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="form-group row">
+                            <label for="emailAddress" class="col-sm-4 col-form-label">Email Address</label>
+                            <div class="col-sm-8">
+                                <input data-parsley-type="email" data-parsley-trigger="keyup" class="form-control" id="emailAddress" value="" name="emailAddress">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group row">
+                            <label for="emailAddressPersonal" class="col-sm-4 col-form-label">Email Personal</label>
+                            <div class="col-sm-8">
+                                <input data-parsley-type="email" data-parsley-trigger="keyup" class="form-control" id="emailAddressPersonal" value="" name="emailAddressPersonal">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="form-group row">
+                            <label for="mobileNumberOffice" class="col-sm-4 col-form-label">MobileNumber Office</label>
+                            <div class="col-sm-8">
+                                <input type="text" data-parsley-length="[6, 20]" data-parsley-trigger="keyup" class="form-control" id="mobileNumberOffice" value="" name="mobileNumberOffice">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group row">
+                            <label for="mobileNumberPersonal" class="col-sm-4 col-form-label">Mobile Number Personal</label>
+                            <div class="col-sm-8">
+                                <input type="text" data-parsley-length="[6, 20]" data-parsley-trigger="keyup" class="form-control" id="mobileNumberPersonal" value="" name="mobileNumberPersonal">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="form-group row">
+                            <label for="joiningDateGovtService" class="col-sm-4 col-form-label">Joining Date GovtService</label>
+                            <div class="col-sm-8">
+                                <input type="text" class="form-control datePicker" id="joiningDateGovtService" value="" name="joiningDateGovtService" autocomplete="off">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group row">
+                            <label for="natureOfRequitment" class="col-sm-4 col-form-label">Nature Of Requitment</label>
+                            <div class="col-sm-8">
+                                <select class="form-control" id="natureOfRequitment" name="natureOfRequitment">
+                                    <option value="Direct">Direct</option>
+                                    <option value="Absorbed">Absorbed</option>
+                                    <option value="ByPromotion">By Promotion</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group row" style="display:none;">
+                            <label for="joiningDatePresentWorkstation" class="col-sm-4 col-form-label">Joining Date Present Workstation</label>
+                            <div class="col-sm-8">
+                                <input type="text" class="form-control datePicker" id="joiningDatePresentWorkstation" value="" name="joiningDatePresentWorkstation" autocomplete="off">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="form-group row">
+                            <label for="activityStatus" class="col-sm-4 col-form-label">Ativity Status</label>
+                            <div class="col-sm-8">
+                                <select type="text" class="form-control" id="activityStatus" name="activityStatus">
+                                    <option value="">Select</option>
+                                    <option value="1">Active</option>
+                                    <option value="0">InActive</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group row">
+                            <label for="department" class="col-sm-4 col-form-label">Department</label>
+                            <div class="col-sm-8">
+                                <select type="text" class="form-control" id="department" name="department">
+                                    <option value="">Select</option>
+                                    <option value="1">HR</option>
+                                    <option value="2">Accounts</option>
+                                    @*@foreach (var data in Model.departments)
+                                    {
+                                        <option value="@data.Id">@data.deptName</option>
+                                    }*@
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="form-group row">
+                            <label for="specialSkill" class="col-sm-4 col-form-label">Special Skill</label>
+                            <div class="col-sm-8">
+                                <input type="text" class="form-control" id="specialSkill" value="" name="specialSkill">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group row">
+                            <label for="currentDivision" class="col-sm-4 col-form-label">Current Division</label>
+                            <div class="col-sm-8">
+                                <select type="text" class="form-control" id="currentDivision" name="currentDivision">
+                                    <option value="">Select</option>
+                                    <option value="1">SB</option>
+                                    <option value="2">CID</option>
+                                    @*@foreach (var data in Model.organoOrganizations)
+                                    {
+                                        <option value="@data.Id">@data.nameEN</option>
+                                    }*@
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="form-group row">
+                            <label for="joiningDesignation" class="col-sm-4 col-form-label">Joining Designation</label>
+                            <div class="col-sm-8">
+                                <select type="text" class="form-control" id="joiningDesignation" name="joiningDesignation">
+                                    <option value="">Select</option>
+                                    <option value="ASP">ASP</option>
+                                    <option value="SI">SI</option>
+                                    <option value="ASI">ASI</option>
+                                    <option value="Constable">Constable</option>
+                                    @*@foreach (var data in Model.designations)
+                                    {
+                                        <option value="@data.designationName">@data.designationName</option>
+                                    }*@
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group row">
+                            <label for="designation" class="col-sm-4 col-form-label">Designation</label>
+                            <div class="col-sm-8">
+                                <select type="text" class="form-control" id="designation" value="" name="designation">
+                                    <option value="">Select</option>
+                                    <option value="">Select</option>
+                                    <option value="ASP">ASP</option>
+                                    <option value="SI">SI</option>
+                                    <option value="ASI">ASI</option>
+                                    <option value="Constable">Constable</option>
+                                    @*@foreach (var data in Model.designations)
+        {
+            <option value="@data.designationName">@data.designationName</option>
+        }*@
+                                </select>
+                            </div>
+                            <input type="hidden" name="post" value="" id="post" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="form-group row">
+                            <label for="dateofregularity" class="col-sm-4 col-form-label">Date of Regularity</label>
+                            <div class="col-sm-8">
+                                <input type="text" class="form-control datePicker" id="dateofregularity" value="" name="dateofregularity" autocomplete="off">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group row">
+                            <label for="dateOfPermanent" class="col-sm-4 col-form-label">Date Of Permanent</label>
+                            <div class="col-sm-8">
+                                <input type="text" class="form-control datePicker" id="dateOfPermanent" value="" name="dateOfPermanent" autocomplete="off">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="form-group row">
+                            <label for="skypeId" class="col-sm-4 col-form-label">Skype</label>
+                            <div class="col-sm-8">
+                                <input type="text" class="form-control" id="skypeId" value="" name="skypeId" autocomplete="off">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group row">
+                            <label for="sbu" class="col-sm-4 col-form-label">Branch<span class="redStar">*</span></label>
+                            <div class="col-sm-8">
+                                <select class="form-control" id="sbu" name="sbu" data-parsley-required="true">
+                                    <option value="">Select</option>
+                                    <option value="1">CID</option>
+                                    <option value="2">SB</option>
+                                    <option value="3">DB</option>
+                                    <option value="4">PBI</option>
+                                    @*@foreach (var data in Model.specialBranchUnits)
+                                    {
+                                        <option value="@data.Id">@data.branchUnitName</option>
+                                    }*@
+                                </select>
+                            </div>
+                        </div>
+                        @*<div class="form-group row">
+                                <label for="dateOfPermanent" class="col-sm-4 col-form-label">@Model.fLang.dateOfPermanent</label>
+                                <div class="col-sm-8">
+                                    <input type="text" class="form-control datePicker" id="dateOfPermanent" value="" name="dateOfPermanent" autocomplete="off">
+                                </div>
+                            </div>*@
+                    </div>
+                </div>
+
+                <hr>
+                <button type="submit" value="Submit" id="btnSave" class="btn btn-success" style="float:right; margin-top:5px;">Save</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts{
+    <script>
+        var posts = {};
+        $(document).ready(function () {
+            $("#personal").addClass("active");
+
+            $('#dateOfBirth').datepicker({ dateFormat: "dd-M-yy", showAnim: "scale", changeMonth: true, changeYear: true, yearRange: "1900:2100" });
+
+            $('#joiningDateofPresentPost').datepicker({ dateFormat: "dd-M-yy", showAnim: "scale", changeMonth: true, changeYear: true, yearRange: "1900:2100" });
+
+            $('#joiningDatePresentWorkstation').datepicker({ dateFormat: "dd-M-yy", showAnim: "scale", changeMonth: true, changeYear: true, yearRange: "1900:2100" });
+
+            $('#joiningDateGovtService').datepicker({ dateFormat: "dd-M-yy", showAnim: "scale", changeMonth: true, changeYear: true, yearRange: "1900:2100" });
+
+            $('#dateofregularity').datepicker({ dateFormat: "dd-M-yy", showAnim: "scale", changeMonth: true, changeYear: true, yearRange: "1900:2100" });
+
+            $('#dateOfPermanent').datepicker({ dateFormat: "dd-M-yy", showAnim: "scale", changeMonth: true, changeYear: true, yearRange: "1900:2100" });
+
+            $("#dateOfBirth").change(function () {
+                var dob = $("#dateOfBirth").val();
+                //$("#dateOfLPR").val(dob);
+            });
+
+            $("#freedomFighter").change(function () {
+                if ($("#freedomFighter").val() == 'Yes') {
+                    $("#freedomFighterNo").attr('readonly', false);
+                }
+                else {
+                    $("#freedomFighterNo").attr('readonly', true);
+                    $("#freedomFighterNo").val('');
+                }
+            });
+
+            $("#currentDivision").change(function () { Common.Ajax('GET', '/global/api/allAvailablePosts/' + $(this).val(), [], 'json', ajaxPosts); });
+
+            $("#designation").change(function () { $("#post").val(posts['"' + $(this).val() + '"']); });
+
+            $("#sbu").change(function () {
+                if ($(this).val() != '') {
+                    Common.Ajax('GET', '/global/api/getRlnSBUPNSBySBUId/' + $(this).val(), [], 'json', ajaxPNS);
+                }
+                else {
+                    var options = '<option value="">Select</option>';
+                    $('#pns').empty();
+                    $('#pns').append(options);
+                }
+            });
+
+
+                var modelId =  window.localStorage.getItem('modelId');
+                var parentId = window.localStorage.getItem('parentId');
+
+                if (modelId != null) {
+                    $("#backBtn").prop('href', '/Home/GridMenuPage?moduleId=' + modelId + '&perentId=' + parentId);
+                } else {
+                    $("#backBtn").prop('href', '/');
+            }
+
+            $("#btnSave").click(function () {
+                var data = $("#infoCreateForm").serialize();
+
+                if ($("#employeeCode").val() == "") {
+                    swal('Warning', 'Enter Employee ID!', 'warning');
+                    return false;
+                }
+                if ($("#nameEnglish").val() == "") {
+                    swal('Warning', 'Enter Employee Name!', 'warning');
+                    return false;
+                }
+                if ($("#nationality").val() == "") {
+                    swal('Warning', 'Choose your nationality!', 'warning');
+                    return false;
+                }
+                if ($("#sbu").val() == "") {
+                    swal('Warning', 'Select SBU!', 'warning');
+                    return false;
+                }
+
+                swal({
+                    title: 'Are you sure?', text: 'Do you want to Save this record!', type: 'warning', showCancelButton: true, confirmButtonColor: '#3085d6', cancelButtonColor: '#d33', confirmButtonText: 'Yes, Save it!'
+                }).then(function () {
+                    $.ajax({
+                        type: "POST",
+                        url: "/HRPMSEmployee/Info/Create",
+                        data: data,
+                        success: function (response) {
+                            swal('', 'Saved Successfully!', 'success')
+                            window.location.href = "/HRPMSEmployee/Info/AllEmployeeList";
+                        }
+                    });
+                });
+                return false;
+            });
+        });
+
+        function ajaxPosts(response) {
+            posts = {}
+            var options = '<option value="">Select</option>';
+            $.each(response, function (i, item) {
+                posts['"' + item.designationName + '"'] = item.postId;
+                options += '<option value="' + item.designationName + '">' + item.designationName + '</option>';
+            });
+            $('#designation').empty();
+            //$('#designation').append(options);
+        }
+
+        function ajaxPNS(response) {
+            console.log(response);
+            var options = '<option value="">Select</option>';
+            $.each(response, function (i, item) {
+                options += '<option value="' + item.pNS.Id + '">' + item.pNS.name + '</option>';
+            });
+            $('#pns').empty();
+            $('#pns').append(options);
+        }
+    </script>
+}

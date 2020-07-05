@@ -1,0 +1,17 @@
+{
+  "title": "Training Plan",
+  "planName": "Plan Name",
+  "planStartDate": "Plan Start Date",
+  "planEndDate": "Plan End Date",
+  "trainingName": "Training Offer Name",
+  "duration": "Duration",
+  "noOfParticipants": "No of Participants",
+  "noOfTrainers": "No of Traning",
+  "expectedStartDate": "Expected Start Date",
+  "expectedEndDate": "Expected End Date",
+  "organization": "Organization",
+  "details": "details",
+  "planDetailsName": "Plan Details Name",
+  "trainingType": "Training Type",
+  "action": "Action"
+}

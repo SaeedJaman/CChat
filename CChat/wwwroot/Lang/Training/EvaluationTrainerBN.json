@@ -1,0 +1,15 @@
+﻿{
+  "title": "মূল্যায়ন",
+  "trainingName": "প্রশিক্ষণের নাম",
+  "trainerName": "প্রশিক্ষকের নাম",
+  "skillRateOfTrainer": "প্রশিক্ষকের দক্ষতার হার",
+  "performance": "প্রশিক্ষকের কর্মদক্ষতা হার",
+  "presenceOfMind": "প্রশিক্ষকের উপস্থিত বুদ্ধির হার",
+  "presentationRate": "প্রশিক্ষকের উপস্থাপনার হার",
+  "resourceName": "মুল্যায়িত ব্যাক্তির নাম",
+  "factorId": "ফ্যাক্টর নাম",
+  "obtainedValue": "অর্জিত মান",
+  "commnet": "মন্তব্য",
+  "evaluationDate": "মূল্যায়নের তারিখ",
+  "action": "প্রক্রিয়া"
+}

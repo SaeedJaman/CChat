@@ -1,0 +1,16 @@
+{
+  "title1": "REQUISITION LIST",
+  "requisitionNo": "Requisition No",
+  "requisitionDate": "Requisition Date",
+  "subject": "Subject",
+  "assignedDate": "Assigned Date",
+  "status": "Status",
+  "action": "Action",
+  "createCS": "Create CS",
+  "cSList": "CS LIST",
+  "procurementPerson": "Procurement Person",
+  "cSNo": "CS No",
+  "cSCreationDate": "CS Creation Date",
+  "finalApprover": "Final Approver",
+  "approveCS": "Approve CS"
+}

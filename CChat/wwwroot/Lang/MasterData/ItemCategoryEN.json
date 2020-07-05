@@ -1,0 +1,11 @@
+{
+  "title": "Item Category Information",
+  "itemSubCategoryId": "Item Sub Category",
+  "itemCategoryName": "Item Category",
+  "itemCategoryPrefix": "Item Category Prefix",
+  "parentCategoryName": "Parent Category",
+  "description": "Description",
+  "accountLedgerId": "Account Ledger",
+  "categoryTree": "Category Tree Sheet",
+  "action": "Action"
+}

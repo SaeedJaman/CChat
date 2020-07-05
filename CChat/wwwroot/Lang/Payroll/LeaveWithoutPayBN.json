@@ -1,0 +1,13 @@
+﻿{
+  "title": "বিনা বেতনে ছুটি",
+  "sl": "ক্রম নং",
+  "empcode": "এমপ্লয়ি কোড",
+  "employeeName": "এমপ্লয়ির নাম",
+  "workingDays": "কর্ম দিবস",
+  "designation": "পদবি",
+  "department": "বিভাগ",
+  "salaryPeriodId": "শুরুর সময়কাল",
+  "salaryMonth": "বেতনের মাস",
+  "list": "বিনা বেতনে ছুটি তালিকা",
+  "action": "প্রক্রিয়া"
+}

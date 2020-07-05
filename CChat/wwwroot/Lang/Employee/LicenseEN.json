@@ -1,0 +1,10 @@
+﻿{
+  "title": "Driving License Information",
+  "title2": "List of Driving License Information",
+  "licenseNumber": "License Number",
+  "licenseCategory": "License Category",
+  "place": "Place of Issue",
+  "dateOfIssue": "Date of Issue",
+  "dateOfExpair": "Date of Expiry",
+  "action": "Action"
+}

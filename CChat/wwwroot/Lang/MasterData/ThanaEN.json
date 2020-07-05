@@ -1,0 +1,12 @@
+{
+  "title": "Thana Information",
+  "title2": "List of Thana Information",
+  "country": "Country",
+  "division": "Division",
+  "district": "District",
+  "thanaCode": "Thana Code",
+  "thanaName": "Thana Name (English)",
+  "thanaNameBn": "Thana Name (Bangla)",
+  "shortName": "Short Name",
+  "action": "Action"
+}

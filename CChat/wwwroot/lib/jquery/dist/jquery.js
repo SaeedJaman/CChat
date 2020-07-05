@@ -123,7 +123,7 @@ function toType( obj ) {
 		typeof obj;
 }
 /* global Symbol */
-// Defining this global in .eslintrc.json would create a danger of using the global
+// Defining this global in .eslintrc.OPUSERP would create a danger of using the global
 // unguarded in another place, it seems safer to define global only for this module
 
 
@@ -4189,7 +4189,7 @@ function getData( data ) {
 	}
 
 	if ( rbrace.test( data ) ) {
-		return JSON.parse( data );
+		return OPUSERP.parse( data );
 	}
 
 	return data;
@@ -8538,7 +8538,7 @@ var
 	rprotocol = /^\/\//,
 
 	/* Prefilters
-	 * 1) They are useful to introduce custom dataTypes (see ajax/jsonp.js for an example)
+	 * 1) They are useful to introduce custom dataTypes (see ajax/OPUSERPp.js for an example)
 	 * 2) These are called:
 	 *    - BEFORE asking for a transport
 	 *    - AFTER param serialization (s.data is a string if s.processData is true)
@@ -8835,19 +8835,19 @@ jQuery.extend( {
 			text: "text/plain",
 			html: "text/html",
 			xml: "application/xml, text/xml",
-			json: "application/json, text/javascript"
+			OPUSERP: "application/OPUSERP, text/javascript"
 		},
 
 		contents: {
 			xml: /\bxml\b/,
 			html: /\bhtml/,
-			json: /\bjson\b/
+			OPUSERP: /\bOPUSERP\b/
 		},
 
 		responseFields: {
 			xml: "responseXML",
 			text: "responseText",
-			json: "responseJSON"
+			OPUSERP: "responseOPUSERP"
 		},
 
 		// Data converters
@@ -8860,8 +8860,8 @@ jQuery.extend( {
 			// Text to html (true = no transformation)
 			"text html": true,
 
-			// Evaluate text as a json expression
-			"text json": JSON.parse,
+			// Evaluate text as a OPUSERP expression
+			"text OPUSERP": OPUSERP.parse,
 
 			// Parse text as xml
 			"text xml": jQuery.parseXML
@@ -9332,8 +9332,8 @@ jQuery.extend( {
 		return jqXHR;
 	},
 
-	getJSON: function( url, data, callback ) {
-		return jQuery.get( url, data, callback, "json" );
+	getOPUSERP: function( url, data, callback ) {
+		return jQuery.get( url, data, callback, "OPUSERP" );
 	},
 
 	getScript: function( url, callback ) {
@@ -9691,55 +9691,55 @@ jQuery.ajaxTransport( "script", function( s ) {
 
 
 var oldCallbacks = [],
-	rjsonp = /(=)\?(?=&|$)|\?\?/;
+	rOPUSERPp = /(=)\?(?=&|$)|\?\?/;
 
-// Default jsonp settings
+// Default OPUSERPp settings
 jQuery.ajaxSetup( {
-	jsonp: "callback",
-	jsonpCallback: function() {
+	OPUSERPp: "callback",
+	OPUSERPpCallback: function() {
 		var callback = oldCallbacks.pop() || ( jQuery.expando + "_" + ( nonce++ ) );
 		this[ callback ] = true;
 		return callback;
 	}
 } );
 
-// Detect, normalize options and install callbacks for jsonp requests
-jQuery.ajaxPrefilter( "json jsonp", function( s, originalSettings, jqXHR ) {
+// Detect, normalize options and install callbacks for OPUSERPp requests
+jQuery.ajaxPrefilter( "OPUSERP OPUSERPp", function( s, originalSettings, jqXHR ) {
 
 	var callbackName, overwritten, responseContainer,
-		jsonProp = s.jsonp !== false && ( rjsonp.test( s.url ) ?
+		OPUSERPProp = s.OPUSERPp !== false && ( rOPUSERPp.test( s.url ) ?
 			"url" :
 			typeof s.data === "string" &&
 				( s.contentType || "" )
 					.indexOf( "application/x-www-form-urlencoded" ) === 0 &&
-				rjsonp.test( s.data ) && "data"
+				rOPUSERPp.test( s.data ) && "data"
 		);
 
-	// Handle iff the expected data type is "jsonp" or we have a parameter to set
-	if ( jsonProp || s.dataTypes[ 0 ] === "jsonp" ) {
+	// Handle iff the expected data type is "OPUSERPp" or we have a parameter to set
+	if ( OPUSERPProp || s.dataTypes[ 0 ] === "OPUSERPp" ) {
 
 		// Get callback name, remembering preexisting value associated with it
-		callbackName = s.jsonpCallback = isFunction( s.jsonpCallback ) ?
-			s.jsonpCallback() :
-			s.jsonpCallback;
+		callbackName = s.OPUSERPpCallback = isFunction( s.OPUSERPpCallback ) ?
+			s.OPUSERPpCallback() :
+			s.OPUSERPpCallback;
 
 		// Insert callback into url or form data
-		if ( jsonProp ) {
-			s[ jsonProp ] = s[ jsonProp ].replace( rjsonp, "$1" + callbackName );
-		} else if ( s.jsonp !== false ) {
-			s.url += ( rquery.test( s.url ) ? "&" : "?" ) + s.jsonp + "=" + callbackName;
+		if ( OPUSERPProp ) {
+			s[ OPUSERPProp ] = s[ OPUSERPProp ].replace( rOPUSERPp, "$1" + callbackName );
+		} else if ( s.OPUSERPp !== false ) {
+			s.url += ( rquery.test( s.url ) ? "&" : "?" ) + s.OPUSERPp + "=" + callbackName;
 		}
 
-		// Use data converter to retrieve json after script execution
-		s.converters[ "script json" ] = function() {
+		// Use data converter to retrieve OPUSERP after script execution
+		s.converters[ "script OPUSERP" ] = function() {
 			if ( !responseContainer ) {
 				jQuery.error( callbackName + " was not called" );
 			}
 			return responseContainer[ 0 ];
 		};
 
-		// Force json dataType
-		s.dataTypes[ 0 ] = "json";
+		// Force OPUSERP dataType
+		s.dataTypes[ 0 ] = "OPUSERP";
 
 		// Install callback
 		overwritten = window[ callbackName ];
@@ -9763,7 +9763,7 @@ jQuery.ajaxPrefilter( "json jsonp", function( s, originalSettings, jqXHR ) {
 			if ( s[ callbackName ] ) {
 
 				// Make sure that re-using the options doesn't screw things around
-				s.jsonpCallback = originalSettings.jsonpCallback;
+				s.OPUSERPpCallback = originalSettings.OPUSERPpCallback;
 
 				// Save the callback name for future use
 				oldCallbacks.push( callbackName );
@@ -10282,7 +10282,7 @@ jQuery.holdReady = function( hold ) {
 	}
 };
 jQuery.isArray = Array.isArray;
-jQuery.parseJSON = JSON.parse;
+jQuery.parseOPUSERP = OPUSERP.parse;
 jQuery.nodeName = nodeName;
 jQuery.isFunction = isFunction;
 jQuery.isWindow = isWindow;

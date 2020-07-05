@@ -1,0 +1,9 @@
+{
+  "title": "Training Name Setup",
+  "name": "Training Name",
+  "isMandatory": "Is Mandatory",
+  "type": "Tarining Type",
+  "objective": "Objective",
+  "description": "Description",
+  "action": "action"
+}

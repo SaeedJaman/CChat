@@ -1,0 +1,9 @@
+﻿{
+  "title": "Salary Grade Percent",
+  "salaryGradeId": "Salary Grade",
+  "salaryHeadId": "Salary Head",
+  "salaryCalulationTypeId": "Salary Calculation Type",
+  "percentAmount": "Percentage/Amount",
+  "list": "Salary Grade Percent List",
+  "action": "Action"
+}

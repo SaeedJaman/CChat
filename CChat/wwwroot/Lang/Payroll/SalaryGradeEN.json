@@ -1,0 +1,9 @@
+﻿{
+  "title": "Salary Grade",
+  "gradeName": "Grade Name",
+  "basicAmount": "Basic",
+  "payScale": "Pay Scale",
+  "currentBasic": "Current Basic",
+  "list": "Salary Grade List",
+  "action": "Action"
+}
